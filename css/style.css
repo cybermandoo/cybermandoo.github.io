@@ -75,3 +75,30 @@
     color: #6c757d;
     font-family: monospace;
 }
+
+
+/* Single Post Styles */
+.post {
+    padding: 1rem 0;
+}
+.post-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.post-title {
+    margin-bottom: 0.5rem;
+}
+.post-meta {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+.post-content {
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+.post-content h2 {
+    margin-top: 2.5rem;
+}
+.post-content a {
+    color: #0d6efd;
+}
