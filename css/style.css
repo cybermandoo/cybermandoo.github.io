@@ -1,0 +1,77 @@
+/* Anki Progress Widget Styles */
+.anki-progress-widget {
+    font-family: sans-serif;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    margin: 2rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.anki-progress-widget h3 {
+    margin-top: 0;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+.anki-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.anki-table th, .anki-table td {
+    border: 1px solid #e0e0e0;
+    padding: 0.8rem;
+}
+.anki-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+.anki-table td:first-child {
+    text-align: left;
+    font-weight: 500;
+}
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    padding: 2px;
+}
+.progress-bar {
+    height: 1rem;
+    background-color: #0d6efd;
+    border-radius: 3px;
+}
+.progress-text {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #495057;
+}
+
+/* Recent Posts List Styles */
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+.post-item {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-link {
+    text-decoration: none;
+    color: #212529;
+    font-size: 1.1rem;
+}
+.post-link:hover {
+    color: #0d6efd;
+}
+.post-date {
+    color: #6c757d;
+    font-family: monospace;
+}
