@@ -1,104 +1,158 @@
-/* Anki Progress Widget Styles */
-.anki-progress-widget {
-    font-family: sans-serif;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 1.5rem;
-    background-color: #ffffff;
-    margin: 2rem 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-.anki-progress-widget h3 {
-    margin-top: 0;
-    text-align: center;
-    font-weight: normal;
-    margin-bottom: 1.5rem;
-    color: #333;
-}
-.anki-table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-}
-.anki-table th, .anki-table td {
-    border: 1px solid #e0e0e0;
-    padding: 0.8rem;
-}
-.anki-table th {
-    background-color: #f8f9fa;
-    font-weight: bold;
-}
-.anki-table td:first-child {
-    text-align: left;
-    font-weight: 500;
-}
-.progress-container {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    background-color: #e9ecef;
-    border-radius: 4px;
-    padding: 2px;
-}
-.progress-bar {
-    height: 1rem;
-    background-color: #0d6efd;
-    border-radius: 3px;
-}
-.progress-text {
-    font-size: 0.9em;
-    font-weight: bold;
-    color: #495057;
+/* --- 1. Root & Font Settings --- */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+:root {
+    --color-background: #fdfdfd; /* 거의 흰색에 가까운 부드러운 배경 */
+    --color-text: #333333;       /* 기본 텍스트 색상 (진한 회색) */
+    --color-primary: #007bff;   /* 포인트 색상 (파란색 계열) */
+    --color-border: #e0e0e0;     /* 경계선 색상 (연한 회색) */
+    --font-family-base: 'Noto Sans KR', sans-serif;
 }
 
-/* Recent Posts List Styles */
+/* --- 2. Global Styles --- */
+body {
+    font-family: var(--font-family-base);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px; /* 콘텐츠 최대 너비 */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* 제목은 조금 더 굵게 */
+}
+
+
+/* --- 3. Site Structure --- */
+.site-header {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+.site-title:hover {
+    text-decoration: none;
+}
+
+.site-footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-border);
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* --- 4. Post List Styles (기존 스타일 개선) --- */
+.recent-posts h2 {
+    margin-bottom: 20px;
+}
+
 .post-list {
     list-style: none;
     padding: 0;
 }
+
 .post-item {
-    border-bottom: 1px solid #eee;
-    padding: 1rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--color-border);
 }
+
+.post-item:last-child {
+    border-bottom: none;
+}
+
 .post-link {
-    text-decoration: none;
-    color: #212529;
     font-size: 1.1rem;
+    font-weight: normal; /* 평범한 굵기 */
 }
-.post-link:hover {
-    color: #0d6efd;
-}
+
 .post-date {
-    color: #6c757d;
-    font-family: monospace;
+    font-size: 0.9em;
+    color: #777;
+    white-space: nowrap; /* 날짜가 줄바꿈되지 않도록 */
+    margin-left: 20px;
 }
 
 
-/* Single Post Styles */
-.post {
-    padding: 1rem 0;
+/* --- Anki Progress Widget Styles & Post List Styles ... (기존 CSS 코드는 이 아래에 위치) --- */
+/* (이곳에 기존의 Anki 위젯 CSS 코드를 붙여넣거나 그대로 두세요) */
+
+.anki-progress-widget {
+    margin-bottom: 40px;
+    border: 1px solid var(--color-border);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
 }
-.post-header {
-    margin-bottom: 2rem;
+.anki-progress-widget h3 {
+    margin-top: 0;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.anki-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.anki-table th, .anki-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+.anki-table th {
+    font-weight: 700;
+}
+.anki-table tbody tr:last-child td {
+    border-bottom: none;
+}
+.progress-container {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    position: relative;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.progress-bar {
+    background-color: var(--color-primary);
+    height: 100%;
+    border-radius: 4px;
+}
+.progress-text {
+    position: absolute;
+    width: 100%;
     text-align: center;
-}
-.post-title {
-    margin-bottom: 0.5rem;
-}
-.post-meta {
-    font-size: 0.9rem;
-    color: #6c757d;
-}
-.post-content {
-    line-height: 1.7;
-    font-size: 1.1rem;
-}
-.post-content h2 {
-    margin-top: 2.5rem;
-}
-.post-content a {
-    color: #0d6efd;
+    color: var(--color-text);
+    font-size: 0.9em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #fff;
 }
