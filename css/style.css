@@ -519,3 +519,368 @@ body.dark-mode .progress-text {
         gap: 20px;
     }
 }
+
+
+
+
+/* --- 9. List & Terms Page Styles --- */
+
+
+/* terms.html - 모든 카테고리/태그 목록 페이지 */
+.terms-page .terms-header {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.terms-page .terms-title {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.terms-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    column-count: 2; /* 2단으로 표시 */
+    column-gap: 40px; /* 단 사이의 간격 */
+}
+
+.terms-item {
+    display: flex;
+    justify-content: space-between; /* 양쪽 끝으로 정렬 */
+    align-items: baseline; /* 세로 정렬 기준선 */
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.terms-item:hover {
+    background-color: var(--color-main-background);
+}
+
+.terms-link {
+    font-size: 1.2rem;
+    color: var(--color-main-text);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.terms-count {
+    font-size: 1.1rem;
+    color: #888;
+}
+
+/* 다크모드일 때 */
+body.dark-mode .terms-item:hover {
+    background-color: #3a3f4b;
+}
+
+body.dark-mode .terms-link {
+    color: var(--color-main-text);
+}
+
+/* 화면이 좁아지면 1단으로 변경 */
+@media (max-width: 768px) {
+    .terms-list {
+        column-count: 1;
+    }
+}
+
+
+
+
+/* list.html - 월별 그룹 리스트 페이지 */
+.list-page .list-header {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.list-page .list-title {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.monthly-group {
+    margin-bottom: 40px;
+}
+
+.monthly-group:last-child {
+    margin-bottom: 0;
+}
+
+.monthly-group-title {
+    font-size: 1.5rem;
+    color: var(--color-headings);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color-primary);
+    display: inline-block;
+}
+
+.post-list-simple {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.post-list-simple li {
+    margin-bottom: 10px;
+}
+
+.post-list-simple li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--color-main-text);
+    transition: all 0.2s ease-in-out;
+}
+
+.post-list-simple li a:hover {
+    color: var(--color-primary);
+    padding-left: 10px;
+}
+
+/* 다크모드일 때 리스트 링크 색상 */
+body.dark-mode .post-list-simple li a {
+    color: var(--color-main-text);
+}
+
+body.dark-mode .post-list-simple li a:hover {
+    color: #cccccc;
+}
+
+
+/* --- 10. Search Styles --- */
+
+/* 데스크탑 사이드바 검색창 */
+.sidebar .search-container {
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.search-container input[type="search"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+/* 모바일 상단 바 검색 아이콘 */
+.mobile-search-icon {
+    margin-left: auto; /* 메뉴와 다크모드 아이콘 사이 공간을 채움 */
+    margin-right: 15px;
+    cursor: pointer;
+}
+.mobile-search-icon svg {
+    width: 22px;
+    height: 22px;
+    stroke: var(--color-sidebar-text);
+}
+
+
+/* 모바일 검색창 컨테이너 (평소에는 숨김) */
+.mobile-search-container {
+    display: none; /* 기본적으로 숨김 */
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+/* JavaScript로 is-visible 클래스가 추가되면 보이도록 설정 */
+.mobile-search-container.is-visible {
+    display: block;
+}
+
+body.dark-mode .mobile-search-container {
+    background-color: #1c1e22;
+}
+
+body.dark-mode .search-container input[type="search"] {
+    background-color: #3a3f4b;
+    border-color: #555;
+    color: #fff;
+}
+
+
+/* 검색 결과 목록 */
+.search-results {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    max-height: 40vh; /* 결과 목록이 너무 길어지지 않도록 최대 높이 제한 */
+    overflow-y: auto; /* 결과가 많으면 스크롤바 생성 */
+}
+
+.search-results li {
+    padding: 10px;
+    border-bottom: 1px solid var(--color-border);
+}
+.search-results li:last-child {
+    border-bottom: none;
+}
+
+.search-results li a {
+    text-decoration: none;
+    color: var(--color-main-text);
+    display: block;
+}
+.search-results li a:hover {
+    background-color: var(--color-main-background);
+}
+
+.search-results .search-result-title {
+    font-weight: bold;
+}
+
+.search-results .search-result-summary {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    
+    /* 요약문이 길 경우 여러 줄 말줄임 처리 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+body.dark-mode .search-results li a:hover {
+    background-color: #3a3f4b;
+}
+body.dark-mode .search-results .search-result-summary {
+    color: #aaa;
+}
+
+
+/* --- 11. Style Fixes & Overrides --- */
+
+/* 사이드바 내부의 검색 결과에만 적용되는 색상 수정 */
+.sidebar .search-results li a {
+    color: var(--color-sidebar-text); /* 사이드바 기본 텍스트 색상(흰색)을 사용 */
+}
+
+.sidebar .search-results .search-result-summary {
+    color: #ccc; /* 요약 글자는 약간 더 어두운 회색으로 설정 */
+}
+
+/* 사이드바 검색 결과에 마우스를 올렸을 때 배경색 수정 */
+.sidebar .search-results li a:hover {
+    background-color: #555;
+}
+
+/* 다크 모드일 때 사이드바 검색 결과 마우스 호버 색상 */
+body.dark-mode .sidebar .search-results li a:hover {
+    background-color: #3a3f4b;
+}
+
+
+
+/* --- 12. Mobile Search Redesign --- */
+
+/* 모바일 헤더의 기본 아이템과 검색 아이템을 감싸는 컨테이너 설정 */
+.mobile-header-default-items,
+.mobile-header-search-items {
+    flex-grow: 1; /* 남는 공간을 모두 차지하도록 설정 */
+}
+
+.mobile-header-search-items {
+    display: none; /* 검색 아이템은 평소에 숨김 */
+}
+
+/* 검색창 스타일 */
+#mobileSearchInput {
+    width: 100%;
+    height: 36px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+body.dark-mode #mobileSearchInput {
+    background-color: #3a3f4b;
+    border-color: #555;
+    color: #fff;
+}
+
+
+/* 컨트롤 아이콘(검색, 다크모드) 정렬 */
+.mobile-header-controls {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; /* 왼쪽 아이템들과의 간격 */
+}
+.mobile-header-controls .mobile-search-icon {
+    margin: 0;
+}
+.mobile-header-controls .mobile-dark-mode-toggle {
+    margin-left: 15px;
+}
+
+/* === 검색 활성화 상태 스타일 === */
+.mobile-header.is-searching .mobile-header-default-items {
+    display: none; /* 검색 모드일 때 기본 아이템 숨김 */
+}
+
+.mobile-header.is-searching .mobile-header-search-items {
+    display: block; /* 검색 모드일 때 검색 아이템 표시 */
+}
+
+/* 모바일 검색 결과 목록 위치 조정 */
+#mobileSearchResults {
+    display: none; /* 평소에는 숨김 */
+    position: absolute;
+    top: 60px; /* 헤더 바로 아래에 위치 */
+    left: 0;
+    right: 0;
+    background-color: var(--color-card-background);
+    border-top: 1px solid var(--color-border);
+    max-height: calc(100vh - 60px); /* 화면 높이에서 헤더 높이를 뺀 만큼만 차지 */
+    overflow-y: auto;
+    z-index: 999;
+}
+
+#mobileSearchResults.is-visible {
+    display: block; /* is-visible 클래스가 추가되면 보이도록 */
+}
+
+/* 기존 mobile-search-container 관련 스타일은 이제 불필요하므로 삭제합니다. */
+.mobile-search-container,
+.mobile-search-container.is-visible {
+    display: none !important;
+}
+
+
+/* --- 13. Mobile Header Alignment Fix --- */
+
+/* 1. '사이버만두' 제목과 'Category, Tag, About' 메뉴를 수평으로 정렬합니다. */
+.mobile-header-default-items {
+    display: flex;
+    align-items: center;
+}
+
+/* 2. 제목과 메뉴 사이에 적절한 간격을 줍니다. */
+.mobile-main-nav {
+    margin-left: 15px;
+}
+
+/* 3. 검색 아이콘과 달 모양 아이콘의 불필요한 여백을 모두 제거하고, flex를 이용해 완벽한 수직 정렬을 적용합니다. */
+.mobile-header-controls .mobile-search-icon,
+.mobile-header-controls .mobile-dark-mode-toggle {
+    margin: 0; /* 모든 여백 초기화 */
+    display: flex;       /* [수정] 아이콘을 감싸는 div도 flex 컨테이너로 지정 */
+    align-items: center; /* [수정] 내부 아이콘(svg)을 수직 중앙에 배치 */
+}
+
+/* 4. 달 모양 아이콘의 왼쪽에만 다시 간격을 부여해 보기 좋게 만듭니다. */
+.mobile-header-controls .mobile-dark-mode-toggle {
+    margin-left: 15px;
+}
