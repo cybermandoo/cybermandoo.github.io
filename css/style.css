@@ -437,3 +437,85 @@ body.dark-mode .progress-container {
 body.dark-mode .progress-text {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* 어두운 그림자로 변경 */
 }
+
+/* --- 8. Responsive Design (Media Queries) --- */
+
+/* 모바일 헤더는 데스크탑(기본 상태)에서 숨김 */
+.mobile-header {
+    display: none;
+}
+
+/* 태블릿 및 모바일 화면 (992px 이하) */
+@media (max-width: 992px) {
+    
+    /* 992px 이하에서만 모바일 헤더를 보여주고 스타일링 */
+    .mobile-header {
+        display: block; /* 평소에 숨겼던 것을 보이도록 변경 */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background-color: var(--color-sidebar-background);
+        color: var(--color-sidebar-text);
+        z-index: 1000;
+        border-bottom: 1px solid #555;
+    }
+
+    .mobile-header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0 20px;
+    }
+
+    .mobile-site-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .mobile-main-nav a {
+        color: inherit;
+        text-decoration: none;
+        margin: 0 8px;
+        font-size: 0.9rem;
+    }
+
+    .mobile-dark-mode-toggle svg {
+        width: 22px;
+        height: 22px;
+        stroke: var(--color-sidebar-text);
+        cursor: pointer;
+    }
+
+    /* 사이드바는 숨김 처리 */
+    .sidebar {
+        display: none;
+    }
+
+    /* 메인 콘텐츠가 화면 전체를 사용하고, 고정된 상단 바에 가려지지 않도록 함 */
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+        padding-top: 80px; /* 상단 바 높이(60px) + 추가 여백(20px) */
+    }
+
+    /* 콘텐츠 래퍼의 최대 너비를 없애 화면을 꽉 채우도록 함 */
+    .content-wrapper {
+        max-width: none;
+        margin: 0;
+    }
+    
+    /* 포스트 제목 폰트 크기 조정 */
+    .post-title {
+        font-size: 2rem;
+    }
+
+    /* 홈페이지 카드 목록의 그리드 간격 조정 */
+    .post-card-list {
+        gap: 20px;
+    }
+}
