@@ -4,8 +4,11 @@
     --color-sidebar-background: #3F3F3F;
     --color-card-background: #FFFFFF;
     --color-border: #E0E0E0;
+
     --color-main-text: #222222;
     --color-sidebar-text: #FFFFFF;
+    --color-headings: #333333;  /* ▼▼▼ 제목용 변수 추가 ▼▼▼ */
+    
     --color-primary: #888888;
 }
 
@@ -231,7 +234,7 @@ a:hover {
 /* "Anki", "Posts" 등 섹션 제목 */
 .section-title {
     font-size: 1.8rem;
-    color: #555;
+    color: var(--color-headings); /* 변수를 사용하도록 변경 */
     margin-bottom: 20px;
 }
 
@@ -401,4 +404,36 @@ a:hover {
 .post-content pre code {
     background-color: transparent;
     padding: 0;
+}
+
+
+/* --- 7. Dark Mode Styles --- */
+body.dark-mode {
+    --color-main-background: #282C34;          /* 어두운 메인 배경 */
+    --color-sidebar-background: #21252B;      /* 더 어두운 사이드바 배경 */
+    --color-card-background: #282C34;         /* 카드 배경 */
+    --color-border: #7d7d7d;                     /* 어두운 경계선 */
+
+    --color-main-text: #ffffff;                /* 더 밝은 회색 (기존: #ABB2BF) */
+    --color-sidebar-text: #ffffff;            /* 더 밝은 회색 (기존: #ABB2BF) */
+    --color-headings: #FFFFFF;                /* "Anki, Post" 제목은 흰색으로 선명하게 */
+    
+    /* ▼▼▼ 프로그레스 바 색상을 더 어둡게 변경 ▼▼▼ */
+    --color-primary: #888888;                  /* 포인트 색상 (중간 회색) */
+}
+
+/* 다크 모드일 때 인용구 스타일 */
+body.dark-mode .post-content blockquote {
+    background-color: #333842;
+    color: #ABB2BF;
+}
+
+/* ▼▼▼ 프로그레스 바 배경 컨테이너 스타일 추가 ▼▼▼ */
+body.dark-mode .progress-container {
+    background-color: #4F5B66; /* 프로그레스 바의 배경을 어둡게 */
+}
+
+/* 다크 모드일 때 프로그레스 바 퍼센트 글자 그림자 */
+body.dark-mode .progress-text {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* 어두운 그림자로 변경 */
 }
