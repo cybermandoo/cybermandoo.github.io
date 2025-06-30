@@ -475,6 +475,7 @@ body.dark-mode .progress-text {
         font-weight: 700;
         color: inherit;
         text-decoration: none;
+        white-space: nowrap; /* ★★★ 문제 1 해결 ★★★: 블로그 이름 줄바꿈 방지 */
     }
 
     .mobile-main-nav a {
@@ -509,6 +510,11 @@ body.dark-mode .progress-text {
         margin: 0;
     }
     
+    /* ★★★ 문제 2 해결 ★★★: 모바일에서 글/페이지의 좌우 여백을 줄여 잘림 현상 방지 */
+    .post {
+        padding: 25px 20px;
+    }
+
     /* 포스트 제목 폰트 크기 조정 */
     .post-title {
         font-size: 2rem;
