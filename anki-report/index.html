@@ -1,3 +1,604 @@
 <!doctype html><html lang=ko-kr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Anki 심층 학습 리포트 | 사이버 만두</title><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=/css/style.css></head><body><header id=mobile-header class=mobile-header><div class=mobile-header-content><div class=mobile-header-default-items><a href=https://cybermandoo.github.io/ class=mobile-site-title>사이버 만두</a><nav class=mobile-main-nav><a href=/categories/>Category</a>
 <a href=/tags/>Tag</a>
-<a href=/about/>About</a></nav></div><div class=mobile-header-search-items><input type=search id=mobileSearchInput placeholder="검색어를 입력하세요..." autocomplete=off></div><div class=mobile-header-controls><div class=mobile-search-icon><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div class="dark-mode-toggle mobile-dark-mode-toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div></div><ul id=mobileSearchResults class=search-results></ul></header><div class=site-container><aside class=sidebar><div class=sidebar-content><div class=profile><img src=/images/profile.png alt="Profile Picture" class=profile-img></div><div class=site-identity><a href=https://cybermandoo.github.io/ class=site-name-link>사이버 만두</a></div><nav class=main-nav><ul><li><a href=/categories/>Category</a></li><li><a href=/tags/>Tag</a></li><li><a href=/about/>About</a></li></ul></nav><div class=search-container><input type=search id=searchInput placeholder="검색어를 입력하세요..."><ul id=searchResults class=search-results></ul></div><div class=dark-mode-toggle><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div></aside><div class=main-content><div class=content-wrapper><main><div class=post><header class=post-header><h1 class=post-title>Anki 심층 학습 리포트</h1><div class=post-meta>최근 150일간의 학습 기록</div></header><div class=post-content><p>일별 복습한 카드 개수를 보여주는 그래프입니다. 블로그를 게시할 때마다 데이터가 자동으로 업데이트됩니다.</p><div style=width:100%;margin-top:40px;background-color:#fff;padding:15px;border-radius:8px><canvas id=ankiChart></canvas></div></div></div><script src=https://cdn.jsdelivr.net/npm/chart.js></script><script>document.addEventListener("DOMContentLoaded",function(){const e='[{"count":184,"date":"2025-02-01"},{"count":162,"date":"2025-02-02"},{"count":203,"date":"2025-02-03"},{"count":215,"date":"2025-02-04"},{"count":256,"date":"2025-02-05"},{"count":242,"date":"2025-02-06"},{"count":247,"date":"2025-02-07"},{"count":154,"date":"2025-02-08"},{"count":197,"date":"2025-02-09"},{"count":176,"date":"2025-02-10"},{"count":236,"date":"2025-02-11"},{"count":238,"date":"2025-02-12"},{"count":284,"date":"2025-02-13"},{"count":241,"date":"2025-02-14"},{"count":228,"date":"2025-02-15"},{"count":194,"date":"2025-02-16"},{"count":233,"date":"2025-02-17"},{"count":232,"date":"2025-02-18"},{"count":224,"date":"2025-02-19"},{"count":269,"date":"2025-02-20"},{"count":173,"date":"2025-02-21"},{"count":210,"date":"2025-02-22"},{"count":187,"date":"2025-02-23"},{"count":217,"date":"2025-02-24"},{"count":240,"date":"2025-02-25"},{"count":231,"date":"2025-02-26"},{"count":65,"date":"2025-02-27"},{"count":291,"date":"2025-02-28"},{"count":176,"date":"2025-03-01"},{"count":160,"date":"2025-03-02"},{"count":192,"date":"2025-03-03"},{"count":201,"date":"2025-03-04"},{"count":192,"date":"2025-03-05"},{"count":159,"date":"2025-03-06"},{"count":253,"date":"2025-03-07"},{"count":178,"date":"2025-03-08"},{"count":219,"date":"2025-03-09"},{"count":259,"date":"2025-03-10"},{"count":255,"date":"2025-03-11"},{"count":147,"date":"2025-03-12"},{"count":308,"date":"2025-03-13"},{"count":255,"date":"2025-03-14"},{"count":33,"date":"2025-03-15"},{"count":422,"date":"2025-03-16"},{"count":271,"date":"2025-03-17"},{"count":323,"date":"2025-03-18"},{"count":327,"date":"2025-03-19"},{"count":321,"date":"2025-03-20"},{"count":380,"date":"2025-03-21"},{"count":331,"date":"2025-03-22"},{"count":57,"date":"2025-03-23"},{"count":411,"date":"2025-03-24"},{"count":344,"date":"2025-03-25"},{"count":358,"date":"2025-03-26"},{"count":97,"date":"2025-03-27"},{"count":471,"date":"2025-03-28"},{"count":228,"date":"2025-03-29"},{"count":190,"date":"2025-03-30"},{"count":279,"date":"2025-03-31"},{"count":224,"date":"2025-04-01"},{"count":269,"date":"2025-04-02"},{"count":295,"date":"2025-04-03"},{"count":6,"date":"2025-04-04"},{"count":413,"date":"2025-04-05"},{"count":12,"date":"2025-04-06"},{"count":422,"date":"2025-04-07"},{"count":316,"date":"2025-04-08"},{"count":338,"date":"2025-04-09"},{"count":202,"date":"2025-04-10"},{"count":212,"date":"2025-04-11"},{"count":374,"date":"2025-04-12"},{"count":247,"date":"2025-04-13"},{"count":338,"date":"2025-04-14"},{"count":295,"date":"2025-04-15"},{"count":319,"date":"2025-04-16"},{"count":337,"date":"2025-04-17"},{"count":334,"date":"2025-04-18"},{"count":222,"date":"2025-04-19"},{"count":210,"date":"2025-04-20"},{"count":215,"date":"2025-04-21"},{"count":0,"date":"2025-04-22"},{"count":313,"date":"2025-04-23"},{"count":380,"date":"2025-04-24"},{"count":237,"date":"2025-04-25"},{"count":241,"date":"2025-04-26"},{"count":315,"date":"2025-04-27"},{"count":352,"date":"2025-04-28"},{"count":461,"date":"2025-04-29"},{"count":550,"date":"2025-04-30"},{"count":708,"date":"2025-05-01"},{"count":478,"date":"2025-05-02"},{"count":501,"date":"2025-05-03"},{"count":336,"date":"2025-05-04"},{"count":557,"date":"2025-05-05"},{"count":352,"date":"2025-05-06"},{"count":299,"date":"2025-05-07"},{"count":407,"date":"2025-05-08"},{"count":359,"date":"2025-05-09"},{"count":527,"date":"2025-05-10"},{"count":300,"date":"2025-05-11"},{"count":380,"date":"2025-05-12"},{"count":344,"date":"2025-05-13"},{"count":418,"date":"2025-05-14"},{"count":130,"date":"2025-05-15"},{"count":7,"date":"2025-05-16"},{"count":430,"date":"2025-05-17"},{"count":457,"date":"2025-05-18"},{"count":318,"date":"2025-05-19"},{"count":184,"date":"2025-05-20"},{"count":316,"date":"2025-05-21"},{"count":491,"date":"2025-05-22"},{"count":401,"date":"2025-05-23"},{"count":488,"date":"2025-05-24"},{"count":639,"date":"2025-05-25"},{"count":857,"date":"2025-05-26"},{"count":911,"date":"2025-05-27"},{"count":880,"date":"2025-05-28"},{"count":839,"date":"2025-05-29"},{"count":616,"date":"2025-05-30"},{"count":987,"date":"2025-05-31"},{"count":856,"date":"2025-06-01"},{"count":852,"date":"2025-06-02"},{"count":133,"date":"2025-06-03"},{"count":881,"date":"2025-06-04"},{"count":409,"date":"2025-06-05"},{"count":380,"date":"2025-06-06"},{"count":488,"date":"2025-06-07"},{"count":396,"date":"2025-06-08"},{"count":407,"date":"2025-06-09"},{"count":425,"date":"2025-06-10"},{"count":333,"date":"2025-06-11"},{"count":340,"date":"2025-06-12"},{"count":388,"date":"2025-06-13"},{"count":500,"date":"2025-06-14"},{"count":395,"date":"2025-06-15"},{"count":572,"date":"2025-06-16"},{"count":26,"date":"2025-06-17"},{"count":11,"date":"2025-06-18"},{"count":481,"date":"2025-06-19"},{"count":572,"date":"2025-06-20"},{"count":527,"date":"2025-06-21"},{"count":351,"date":"2025-06-22"},{"count":294,"date":"2025-06-23"},{"count":244,"date":"2025-06-24"},{"count":276,"date":"2025-06-25"},{"count":500,"date":"2025-06-26"},{"count":351,"date":"2025-06-27"},{"count":139,"date":"2025-06-28"},{"count":359,"date":"2025-06-29"},{"count":0,"date":"2025-06-30"}]',t=e.map(e=>e.date),n=e.map(e=>e.count),s=document.getElementById("ankiChart").getContext("2d"),o=new Chart(s,{type:"bar",data:{labels:t,datasets:[{label:"일별 리뷰 카드 수",data:n,backgroundColor:"rgba(136, 136, 136, 0.5)",borderColor:"rgba(136, 136, 136, 1)",borderWidth:1}]},options:{scales:{x:{title:{display:!0,text:"날짜"}},y:{beginAtZero:!0,title:{display:!0,text:"학습한 카드 개수"}}},responsive:!0}})})</script></main><footer class=site-footer><p>&copy; 2025 Cyber Mandoo</p></footer></div></div></div><script src=/js/theme-toggle.js></script><script src=https://cdn.jsdelivr.net/npm/fuse.js@6.6.2></script><script src=/js/search.js></script></body></html>
+<a href=/about/>About</a></nav></div><div class=mobile-header-search-items><input type=search id=mobileSearchInput placeholder="검색어를 입력하세요..." autocomplete=off></div><div class=mobile-header-controls><div class=mobile-search-icon><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div class="dark-mode-toggle mobile-dark-mode-toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div></div><ul id=mobileSearchResults class=search-results></ul></header><div class=site-container><aside class=sidebar><div class=sidebar-content><div class=profile><img src=/images/profile.png alt="Profile Picture" class=profile-img></div><div class=site-identity><a href=https://cybermandoo.github.io/ class=site-name-link>사이버 만두</a></div><nav class=main-nav><ul><li><a href=/categories/>Category</a></li><li><a href=/tags/>Tag</a></li><li><a href=/about/>About</a></li></ul></nav><div class=search-container><input type=search id=searchInput placeholder="검색어를 입력하세요..."><ul id=searchResults class=search-results></ul></div><div class=dark-mode-toggle><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div></aside><div class=main-content><div class=content-wrapper><main><div class=post><header class=post-header><h1 class=post-title>Anki 심층 학습 리포트</h1><div class=post-meta>최근 150일간의 학습 기록</div></header><div class=post-content><p>일별 복습한 카드 개수를 보여주는 그래프입니다. 블로그를 게시할 때마다 데이터가 자동으로 업데이트됩니다.</p><div style=width:100%;margin-top:40px;background-color:#fff;padding:15px;border-radius:8px><canvas id=ankiChart></canvas></div></div></div><script src=https://cdn.jsdelivr.net/npm/chart.js></script><script>document.addEventListener("DOMContentLoaded",function(){const t=`[
+  {
+    "date": "2025-02-01",
+    "count": 184
+  },
+  {
+    "date": "2025-02-02",
+    "count": 162
+  },
+  {
+    "date": "2025-02-03",
+    "count": 203
+  },
+  {
+    "date": "2025-02-04",
+    "count": 215
+  },
+  {
+    "date": "2025-02-05",
+    "count": 256
+  },
+  {
+    "date": "2025-02-06",
+    "count": 242
+  },
+  {
+    "date": "2025-02-07",
+    "count": 247
+  },
+  {
+    "date": "2025-02-08",
+    "count": 154
+  },
+  {
+    "date": "2025-02-09",
+    "count": 197
+  },
+  {
+    "date": "2025-02-10",
+    "count": 176
+  },
+  {
+    "date": "2025-02-11",
+    "count": 236
+  },
+  {
+    "date": "2025-02-12",
+    "count": 238
+  },
+  {
+    "date": "2025-02-13",
+    "count": 284
+  },
+  {
+    "date": "2025-02-14",
+    "count": 241
+  },
+  {
+    "date": "2025-02-15",
+    "count": 228
+  },
+  {
+    "date": "2025-02-16",
+    "count": 194
+  },
+  {
+    "date": "2025-02-17",
+    "count": 233
+  },
+  {
+    "date": "2025-02-18",
+    "count": 232
+  },
+  {
+    "date": "2025-02-19",
+    "count": 224
+  },
+  {
+    "date": "2025-02-20",
+    "count": 269
+  },
+  {
+    "date": "2025-02-21",
+    "count": 173
+  },
+  {
+    "date": "2025-02-22",
+    "count": 210
+  },
+  {
+    "date": "2025-02-23",
+    "count": 187
+  },
+  {
+    "date": "2025-02-24",
+    "count": 217
+  },
+  {
+    "date": "2025-02-25",
+    "count": 240
+  },
+  {
+    "date": "2025-02-26",
+    "count": 231
+  },
+  {
+    "date": "2025-02-27",
+    "count": 65
+  },
+  {
+    "date": "2025-02-28",
+    "count": 291
+  },
+  {
+    "date": "2025-03-01",
+    "count": 176
+  },
+  {
+    "date": "2025-03-02",
+    "count": 160
+  },
+  {
+    "date": "2025-03-03",
+    "count": 192
+  },
+  {
+    "date": "2025-03-04",
+    "count": 201
+  },
+  {
+    "date": "2025-03-05",
+    "count": 192
+  },
+  {
+    "date": "2025-03-06",
+    "count": 159
+  },
+  {
+    "date": "2025-03-07",
+    "count": 253
+  },
+  {
+    "date": "2025-03-08",
+    "count": 178
+  },
+  {
+    "date": "2025-03-09",
+    "count": 219
+  },
+  {
+    "date": "2025-03-10",
+    "count": 259
+  },
+  {
+    "date": "2025-03-11",
+    "count": 255
+  },
+  {
+    "date": "2025-03-12",
+    "count": 147
+  },
+  {
+    "date": "2025-03-13",
+    "count": 308
+  },
+  {
+    "date": "2025-03-14",
+    "count": 255
+  },
+  {
+    "date": "2025-03-15",
+    "count": 33
+  },
+  {
+    "date": "2025-03-16",
+    "count": 422
+  },
+  {
+    "date": "2025-03-17",
+    "count": 271
+  },
+  {
+    "date": "2025-03-18",
+    "count": 323
+  },
+  {
+    "date": "2025-03-19",
+    "count": 327
+  },
+  {
+    "date": "2025-03-20",
+    "count": 321
+  },
+  {
+    "date": "2025-03-21",
+    "count": 380
+  },
+  {
+    "date": "2025-03-22",
+    "count": 331
+  },
+  {
+    "date": "2025-03-23",
+    "count": 57
+  },
+  {
+    "date": "2025-03-24",
+    "count": 411
+  },
+  {
+    "date": "2025-03-25",
+    "count": 344
+  },
+  {
+    "date": "2025-03-26",
+    "count": 358
+  },
+  {
+    "date": "2025-03-27",
+    "count": 97
+  },
+  {
+    "date": "2025-03-28",
+    "count": 471
+  },
+  {
+    "date": "2025-03-29",
+    "count": 228
+  },
+  {
+    "date": "2025-03-30",
+    "count": 190
+  },
+  {
+    "date": "2025-03-31",
+    "count": 279
+  },
+  {
+    "date": "2025-04-01",
+    "count": 224
+  },
+  {
+    "date": "2025-04-02",
+    "count": 269
+  },
+  {
+    "date": "2025-04-03",
+    "count": 295
+  },
+  {
+    "date": "2025-04-04",
+    "count": 6
+  },
+  {
+    "date": "2025-04-05",
+    "count": 413
+  },
+  {
+    "date": "2025-04-06",
+    "count": 12
+  },
+  {
+    "date": "2025-04-07",
+    "count": 422
+  },
+  {
+    "date": "2025-04-08",
+    "count": 316
+  },
+  {
+    "date": "2025-04-09",
+    "count": 338
+  },
+  {
+    "date": "2025-04-10",
+    "count": 202
+  },
+  {
+    "date": "2025-04-11",
+    "count": 212
+  },
+  {
+    "date": "2025-04-12",
+    "count": 374
+  },
+  {
+    "date": "2025-04-13",
+    "count": 247
+  },
+  {
+    "date": "2025-04-14",
+    "count": 338
+  },
+  {
+    "date": "2025-04-15",
+    "count": 295
+  },
+  {
+    "date": "2025-04-16",
+    "count": 319
+  },
+  {
+    "date": "2025-04-17",
+    "count": 337
+  },
+  {
+    "date": "2025-04-18",
+    "count": 334
+  },
+  {
+    "date": "2025-04-19",
+    "count": 222
+  },
+  {
+    "date": "2025-04-20",
+    "count": 210
+  },
+  {
+    "date": "2025-04-21",
+    "count": 215
+  },
+  {
+    "date": "2025-04-22",
+    "count": 0
+  },
+  {
+    "date": "2025-04-23",
+    "count": 313
+  },
+  {
+    "date": "2025-04-24",
+    "count": 380
+  },
+  {
+    "date": "2025-04-25",
+    "count": 237
+  },
+  {
+    "date": "2025-04-26",
+    "count": 241
+  },
+  {
+    "date": "2025-04-27",
+    "count": 315
+  },
+  {
+    "date": "2025-04-28",
+    "count": 352
+  },
+  {
+    "date": "2025-04-29",
+    "count": 461
+  },
+  {
+    "date": "2025-04-30",
+    "count": 550
+  },
+  {
+    "date": "2025-05-01",
+    "count": 708
+  },
+  {
+    "date": "2025-05-02",
+    "count": 478
+  },
+  {
+    "date": "2025-05-03",
+    "count": 501
+  },
+  {
+    "date": "2025-05-04",
+    "count": 336
+  },
+  {
+    "date": "2025-05-05",
+    "count": 557
+  },
+  {
+    "date": "2025-05-06",
+    "count": 352
+  },
+  {
+    "date": "2025-05-07",
+    "count": 299
+  },
+  {
+    "date": "2025-05-08",
+    "count": 407
+  },
+  {
+    "date": "2025-05-09",
+    "count": 359
+  },
+  {
+    "date": "2025-05-10",
+    "count": 527
+  },
+  {
+    "date": "2025-05-11",
+    "count": 300
+  },
+  {
+    "date": "2025-05-12",
+    "count": 380
+  },
+  {
+    "date": "2025-05-13",
+    "count": 344
+  },
+  {
+    "date": "2025-05-14",
+    "count": 418
+  },
+  {
+    "date": "2025-05-15",
+    "count": 130
+  },
+  {
+    "date": "2025-05-16",
+    "count": 7
+  },
+  {
+    "date": "2025-05-17",
+    "count": 430
+  },
+  {
+    "date": "2025-05-18",
+    "count": 457
+  },
+  {
+    "date": "2025-05-19",
+    "count": 318
+  },
+  {
+    "date": "2025-05-20",
+    "count": 184
+  },
+  {
+    "date": "2025-05-21",
+    "count": 316
+  },
+  {
+    "date": "2025-05-22",
+    "count": 491
+  },
+  {
+    "date": "2025-05-23",
+    "count": 401
+  },
+  {
+    "date": "2025-05-24",
+    "count": 488
+  },
+  {
+    "date": "2025-05-25",
+    "count": 639
+  },
+  {
+    "date": "2025-05-26",
+    "count": 857
+  },
+  {
+    "date": "2025-05-27",
+    "count": 911
+  },
+  {
+    "date": "2025-05-28",
+    "count": 880
+  },
+  {
+    "date": "2025-05-29",
+    "count": 839
+  },
+  {
+    "date": "2025-05-30",
+    "count": 616
+  },
+  {
+    "date": "2025-05-31",
+    "count": 987
+  },
+  {
+    "date": "2025-06-01",
+    "count": 856
+  },
+  {
+    "date": "2025-06-02",
+    "count": 852
+  },
+  {
+    "date": "2025-06-03",
+    "count": 133
+  },
+  {
+    "date": "2025-06-04",
+    "count": 881
+  },
+  {
+    "date": "2025-06-05",
+    "count": 409
+  },
+  {
+    "date": "2025-06-06",
+    "count": 380
+  },
+  {
+    "date": "2025-06-07",
+    "count": 488
+  },
+  {
+    "date": "2025-06-08",
+    "count": 396
+  },
+  {
+    "date": "2025-06-09",
+    "count": 407
+  },
+  {
+    "date": "2025-06-10",
+    "count": 425
+  },
+  {
+    "date": "2025-06-11",
+    "count": 333
+  },
+  {
+    "date": "2025-06-12",
+    "count": 340
+  },
+  {
+    "date": "2025-06-13",
+    "count": 388
+  },
+  {
+    "date": "2025-06-14",
+    "count": 500
+  },
+  {
+    "date": "2025-06-15",
+    "count": 395
+  },
+  {
+    "date": "2025-06-16",
+    "count": 572
+  },
+  {
+    "date": "2025-06-17",
+    "count": 26
+  },
+  {
+    "date": "2025-06-18",
+    "count": 11
+  },
+  {
+    "date": "2025-06-19",
+    "count": 481
+  },
+  {
+    "date": "2025-06-20",
+    "count": 572
+  },
+  {
+    "date": "2025-06-21",
+    "count": 527
+  },
+  {
+    "date": "2025-06-22",
+    "count": 351
+  },
+  {
+    "date": "2025-06-23",
+    "count": 294
+  },
+  {
+    "date": "2025-06-24",
+    "count": 244
+  },
+  {
+    "date": "2025-06-25",
+    "count": 276
+  },
+  {
+    "date": "2025-06-26",
+    "count": 500
+  },
+  {
+    "date": "2025-06-27",
+    "count": 351
+  },
+  {
+    "date": "2025-06-28",
+    "count": 139
+  },
+  {
+    "date": "2025-06-29",
+    "count": 359
+  },
+  {
+    "date": "2025-06-30",
+    "count": 347
+  }
+]`;let e;try{e=JSON.parse(t)}catch(t){console.error("JSON 파싱 오류가 발생했습니다. 파일 내용이 올바른지 확인해주세요.",t),e=[]}if(!Array.isArray(e)||e.length===0){console.error("오류: 차트에 필요한 데이터가 비어있거나 배열 형태가 아닙니다.");return}const n=e.map(e=>e.date),s=e.map(e=>e.count),o=document.getElementById("ankiChart").getContext("2d"),i=new Chart(o,{type:"bar",data:{labels:n,datasets:[{label:"일별 리뷰 카드 수",data:s,backgroundColor:"rgba(136, 136, 136, 0.5)",borderColor:"rgba(136, 136, 136, 1)",borderWidth:1}]},options:{scales:{x:{title:{display:!0,text:"날짜"}},y:{beginAtZero:!0,title:{display:!0,text:"학습한 카드 개수"}}},responsive:!0}})})</script></main><footer class=site-footer><p>&copy; 2025 Cyber Mandoo</p></footer></div></div></div><script src=/js/theme-toggle.js></script><script src=https://cdn.jsdelivr.net/npm/fuse.js@6.6.2></script><script src=/js/search.js></script></body></html>
