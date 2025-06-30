@@ -885,16 +885,21 @@ body.dark-mode #mobileSearchInput {
     margin-left: 15px;
 }
 
+
 /* --- 14. Chart Styles --- */
+/* 바깥쪽 스크롤 담당 컨테이너 */
 .chart-container {
-    position: relative;
     width: 100%;
-    overflow-x: auto; /* 핵심: 내용이 넘치면 가로 스크롤바 생성 */
-    -webkit-overflow-scrolling: touch; /* 모바일에서 부드러운 스크롤 효과 */
-    background-color: white;
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 40px;
+    overflow-x: auto; /* 가로 스크롤 허용 */
+    -webkit-overflow-scrolling: touch;
+    margin-top: 20px;
+}
+
+/* 안쪽 차트 실제 영역 컨테이너 */
+.chart-wrapper {
+    position: relative;
+    min-width: 600px; /* 차트의 최소 너비 (이 값보다 화면이 좁아지면 스크롤됨) */
+    height: 400px; /* 또는 aspect-ratio: 16 / 9; */
 }
 
 body.dark-mode .chart-container {
