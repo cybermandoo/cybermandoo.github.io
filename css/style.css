@@ -884,3 +884,19 @@ body.dark-mode #mobileSearchInput {
 .mobile-header-controls .mobile-dark-mode-toggle {
     margin-left: 15px;
 }
+
+/* --- 14. Chart Styles --- */
+.chart-container {
+    position: relative;
+    width: 100%;
+    overflow-x: auto; /* 핵심: 내용이 넘치면 가로 스크롤바 생성 */
+    -webkit-overflow-scrolling: touch; /* 모바일에서 부드러운 스크롤 효과 */
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+body.dark-mode .chart-container {
+    background-color: #282C34; /* 다크모드 배경색 */
+}
