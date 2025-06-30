@@ -886,22 +886,23 @@ body.dark-mode #mobileSearchInput {
 }
 
 
-/* --- 14. Chart Styles --- */
-/* 바깥쪽 스크롤 담당 컨테이너 */
+/* --- 14. Chart Styles (수정) --- */
+
+/* 그래프를 감싸는 바깥 컨테이너 */
 .chart-container {
-    width: 100%;
-    overflow-x: auto; /* 가로 스크롤 허용 */
-    -webkit-overflow-scrolling: touch;
-    margin-top: 20px;
+  width: 100%; /* 부모 요소의 너비를 100% 사용 */
+  max-width: 850px; /* 데스크탑에서 그래프가 너무 커지는 것을 방지 */
+  margin: 40px auto; /* 그래프 간 상하 여백 및 페이지 가운데 정렬 */
 }
 
-/* 안쪽 차트 실제 영역 컨테이너 */
+/* Chart.js의 canvas를 직접 감싸는 래퍼 */
 .chart-wrapper {
-    position: relative;
-    min-width: 600px; /* 차트의 최소 너비 (이 값보다 화면이 좁아지면 스크롤됨) */
-    height: 400px; /* 또는 aspect-ratio: 16 / 9; */
+  position: relative; /* Chart.js 반응형 동작에 필수적인 속성 */
+  height: 45vh; /* 화면 높이에 비례하여 높이 설정 */
+  min-height: 300px; /* 모바일에서 최소 높이를 보장하여 찌그러짐 방지 */
 }
 
+/* 다크모드일 때 배경색은 그대로 유지 */
 body.dark-mode .chart-container {
-    background-color: #282C34; /* 다크모드 배경색 */
+    background-color: var(--color-sidebar-background);
 }
