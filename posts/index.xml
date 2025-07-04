@@ -1,8 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Fri, 04 Jul 2025 18:07:03 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>곱셈과 분수의 크기 비교</title><link>https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/</link><pubDate>Fri, 04 Jul 2025 18:07:03 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/</guid><description>&lt;h3 id="355x356-vs-354x357">355x356 vs 354x357&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Fri, 04 Jul 2025 23:18:17 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>다시 보는 산수</title><link>https://cybermandoo.github.io/posts/learning/%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EB%8A%94-%EC%82%B0%EC%88%98/</link><pubDate>Fri, 04 Jul 2025 23:18:17 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EB%8A%94-%EC%82%B0%EC%88%98/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;p>&lt;a href="https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/">곱셈과 분수의 크기 비교&lt;/a>&lt;/p></description></item><item><title>곱셈과 분수의 크기 비교</title><link>https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/</link><pubDate>Fri, 04 Jul 2025 18:07:03 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/</guid><description>&lt;h3 id="355x356-vs-354x357">355x356 vs 354x357&lt;/h3>
 &lt;ul>
 &lt;li>Gary. R. Gruber는 SAT 수학 교재에서 355x356와 354x357의 크기를 비교하는 7가지 방식을 선보인다.&lt;/li>
 &lt;/ul>
 &lt;h5 id="7가지-해법">7가지 해법&lt;/h5>
+&lt;ul>
+&lt;li>
+&lt;ol>
+&lt;li>단순 계산&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>$355 × 356 = 126,380$&lt;/li>
+&lt;li>$354 × 357 = 126,378$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ol start="2">
+&lt;li>단순 관찰&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>$\frac{355}{354} = 1 + \frac{1}{354}$&lt;/li>
+&lt;li>$\frac{357}{356} = 1 + \frac{1}{356}$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ol start="3">
+&lt;li>대수식 활용&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>$355 × 356\rightarrow (x + 1)(x + 2) = x^2 + 3x + 2$&lt;/li>
+&lt;li>$354 × 357 \rightarrow x(x + 3) = x^2 + 3x$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ol start="4">
+&lt;li>분배법칙 활용&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>$355 × 356 = (354 + 1) × 356 = (354 × 356) + 356$&lt;/li>
+&lt;li>$354 × 357 = 354 × (356 + 1) = (354 × 356) + 354$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ol start="5">
+&lt;li>기준점 설정&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>$a=354 × 356$을 기준으로 하여 양변을 이 기준점을 중심으로 표현한다.&lt;/li>
+&lt;li>$355 × 356 = a + 356$&lt;/li>
+&lt;li>$354 × 357 = a + 354$&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ol start="6">
+&lt;li>일반화&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>$a=355, b=356, c=354, d=357$로 두자.&lt;/li>
+&lt;li>일반적으로, $a+b=c+d$이고 $|a-b|&amp;lt;|c-d|$이면, $ab&amp;gt;cd$임을 대수적으로 증명할 수 있다. (양변을 제곱하여)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ol start="7">
+&lt;li>기하적 접근&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>노벨 물리학상 수상자 Eric Cornell이 보내 온 것이라고 한다.&lt;/li>
+&lt;li>&lt;img src="content/posts/Learning/%ea%b3%b1%ec%85%88%ea%b3%bc%20%eb%b6%84%ec%88%98%ec%9d%98%20%ed%81%ac%ea%b8%b0%20%eb%b9%84%ea%b5%90/ab%20cd.png" alt="기하적 접근 이미지" width="250">&lt;/li>
+&lt;li>$a=355, b=356, c=354, d=357$&lt;/li>
+&lt;li>$a-c=d-b=1$임을 고려하면, $b&amp;gt;c$인 한 $ab$가 더 크다.&lt;/li>
+&lt;li>대수적으로 보면 $ab=cb+(a-c)b$, $cd=cb+c(d-b)$이다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>번외편
+&lt;ul>
+&lt;li>1의 자리만 보고 $5×6=30, 4×7=28$이므로 좌변이 더 크다고 주장할 수있다. 적어도 이 문제에서는 옳은 결과를 도출하는 방법이다. 일반적으로는 1의 자리의 합이 양변이 같고, 1의 자리를 제외한 부분의 숫자가 같은 특수한 경우에 사용할 수 있다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
 &lt;h5 id="논의">논의&lt;/h5>
 &lt;ul>
 &lt;li>나는 $\frac{355}{354}$와 $\frac{357}{356}=\frac{355+2}{354+2}$를 비교하여, 후자가 더 1에 가까워지므로 전자가 더 큼을 알 수 있었다.
@@ -10,13 +85,21 @@
 &lt;li>이것은 개인적으로 &amp;ldquo;희석&amp;quot;이라는 용어로 불러 온 방법이었다. 같은 수가 분자와 분모 각각에 더해지면 1에 더 가까워지는(분모와 분자의 격차가 희석되는)것이기 때문이다. 지금 생각해 보니 증가율법의 가장 단순화된 형태였던 것이다.&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;li>&amp;ldquo;곱해지는 두 수의 합이 일정하다&amp;quot;는 점에 착안한다면, $(x+y)(x-y)=x^2-y^2$의 대수 규칙을 생각해서 $\frac{a+b}{2}=\frac{c+d}{2}=355.5=x$, 그리고 $y_1 = 0.5, y_2=1.5$로 두면 좌변이 더 큼을 알 수 있다.&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;h3 id="분수의-크기-비교">분수의 크기 비교&lt;/h3>
-&lt;h5 id="the-mediant-inequality">The mediant inequality&lt;/h5>
+&lt;h5 id="the-mediant-inequality-와-용병법">The mediant inequality (와 용병법)&lt;/h5>
 &lt;ul>
-&lt;li>한국 수험가에서 용병법 혹은 증가율법으로 불리는 방법의 수학적 근거이다.&lt;/li>
-&lt;li>&amp;ldquo;가비의 리&amp;quot;의 부등식 형태이다.&lt;/li>
+&lt;li>mediant는 가비의 리를 의미한다.&lt;/li>
+&lt;li>$\frac{a}{c}&amp;lt;\frac{b}{d}\Rightarrow \frac{a}{c}&amp;lt;\frac{a+b}{c+d}&amp;lt;\frac{b}{d}$ (단, $cd&amp;gt;0$)&lt;/li>
+&lt;li>분수 비교를 할 때는 이것을 반대로 적용한 것을 사용한다. $\frac{a}{c}&amp;lt;\frac{b}{d}$이면 , $\frac{a-b}{c-d}&amp;lt;\frac{a}{c}&amp;lt;\frac{b}{d}$ 혹은 $\frac{a}{c}&amp;lt;\frac{b}{d}&amp;lt;\frac{b-a}{d-a}$인 것이다. ($c-d$ 혹은 $d-c$의 부호가 양수여야 한다.)
+&lt;ul>
+&lt;li>수험가의 은어로 $\frac{a-b}{c-d}$ 또는 $\frac{b-a}{d-a}$를 용병이라고 부른다. 두 분수를 직접 비교하는 대신&lt;/li>
+&lt;li>용병과 &amp;ldquo;무엇&amp;quot;을 비교하는지 정확히 알아야 한다. 용병은 분모와 분자가 더 큰 쪽의 용병을 말하는 것이다. 용병과 &amp;ldquo;분모 및 분자가 더 작은 수&amp;quot;를 비교해야 한다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>사례&lt;/strong>: $\frac{167}{264}$와 $\frac{165}{232}$를 비교한다고 하자. $\frac{165+2}{232+32}$이므로 전자가 더 작다.&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;h3 id="reference">Reference&lt;/h3>
