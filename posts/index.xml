@@ -1,11 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Fri, 04 Jul 2025 00:09:21 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Sofía Belén López Vicens</title><link>https://cybermandoo.github.io/posts/human/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens/</link><pubDate>Fri, 04 Jul 2025 00:09:21 +0900</pubDate><guid>https://cybermandoo.github.io/posts/human/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens/</guid><description>&lt;h3 id="이름">이름&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Fri, 04 Jul 2025 18:07:03 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>곱셈과 분수의 크기 비교</title><link>https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/</link><pubDate>Fri, 04 Jul 2025 18:07:03 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/</guid><description>&lt;h3 id="355x356-vs-354x357">355x356 vs 354x357&lt;/h3>
+&lt;ul>
+&lt;li>Gary. R. Gruber는 SAT 수학 교재에서 355x356와 354x357의 크기를 비교하는 7가지 방식을 선보인다.&lt;/li>
+&lt;/ul>
+&lt;h5 id="7가지-해법">7가지 해법&lt;/h5>
+&lt;h5 id="논의">논의&lt;/h5>
+&lt;ul>
+&lt;li>나는 $\frac{355}{354}$와 $\frac{357}{356}=\frac{355+2}{354+2}$를 비교하여, 후자가 더 1에 가까워지므로 전자가 더 큼을 알 수 있었다.
+&lt;ul>
+&lt;li>이것은 개인적으로 &amp;ldquo;희석&amp;quot;이라는 용어로 불러 온 방법이었다. 같은 수가 분자와 분모 각각에 더해지면 1에 더 가까워지는(분모와 분자의 격차가 희석되는)것이기 때문이다. 지금 생각해 보니 증가율법의 가장 단순화된 형태였던 것이다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="분수의-크기-비교">분수의 크기 비교&lt;/h3>
+&lt;h5 id="the-mediant-inequality">The mediant inequality&lt;/h5>
+&lt;ul>
+&lt;li>한국 수험가에서 용병법 혹은 증가율법으로 불리는 방법의 수학적 근거이다.&lt;/li>
+&lt;li>&amp;ldquo;가비의 리&amp;quot;의 부등식 형태이다.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="reference">Reference&lt;/h3>
+&lt;p>&lt;strong>Gruber, Gary R.&lt;/strong> 2009. &lt;em>Gruber&amp;rsquo;s Complete SAT Math Workbook&lt;/em>. Sourcebooks, Inc.&lt;/p></description></item><item><title>대수적 사고 vs 직관적 사고</title><link>https://cybermandoo.github.io/posts/learning/%EB%8C%80%EC%88%98%EC%A0%81-%EC%82%AC%EA%B3%A0-vs-%EC%A7%81%EA%B4%80%EC%A0%81-%EC%82%AC%EA%B3%A0/</link><pubDate>Fri, 04 Jul 2025 04:55:02 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%8C%80%EC%88%98%EC%A0%81-%EC%82%AC%EA%B3%A0-vs-%EC%A7%81%EA%B4%80%EC%A0%81-%EC%82%AC%EA%B3%A0/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;p>동일한 문제를 대수적 방법과 직관적 방법으로 풀 수 있는 경우를 탐구한다.&lt;/p>
+&lt;h3 id="사례-탐구">사례 탐구&lt;/h3>
+&lt;ul>
+&lt;li>Horn(1967)에서는 다음과 같은 문제를 제시한다. &amp;ldquo;There are 100 patients in a hospital. Some (an even number) are one-legged, but wearing shoes. One-half of the remainder are barefooted. How many shoes are being worn?&amp;rdquo;
+&lt;ul>
+&lt;li>대수적 해법: $x+\frac{1}{2}\times(100-x)\times 2=100$&lt;/li>
+&lt;li>직관적 해법: 다리가 둘인 집단은 평균적으로 1인 1신발을 신은 것과 같으므로 전원이 1인 1신발인 것으로 생각할 수 있다.&lt;/li>
+&lt;li>Horn은 이 사례를 통해 crystallized intelligence와 fluid intelligence를 구분해 보이고자 했다. &amp;ldquo;Fluid intelligence is composed of such relatively untutored skills&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Root-Bernstein의 책(&amp;ldquo;생각의 탄생&amp;quot;으로 번역됨)에서도 유사한 문제가 등장한다. (전부터 내려오는 문제에 해당하는데, 본래 출처가 무엇이었는지는 알기 어렵다) &amp;ldquo;A classic word problem concerns a man rowing a boat when his hat falls into the river, which is flowing at 3 kilometers per hour downstream. He is rowing upstream 2 km per hour faster than the stream is taking him down. He discovers his hat is missing one half-hour after it has fallen in the river. If he turns around and rows back at the same speed relative to the river to fetch his hat, how long will it take to catch up to it?&amp;rdquo;
+&lt;ul>
+&lt;li>대수적 해법: 사공은 시속 5km로 배를 몰 수 있으며, 강을 거슬러 오르는 것은 0.5시간 동안 시속 2km로 총 1km를 간 것이다. 그동안 모자는 0.5시간동안 시속 3km로 총 1.5km를 떠내려갔을 것이다. 이때의 거리 격차는 2.5km이고, 사공이 강의 흐름을 타서 떠내려가려고 할 때에는 시속 8km로 배를 몰아 시속 3km인 모자를 쫓을 것이다. 상대속도 시속 5km으로 2.5km의 격차를 따라잡기 위해서는 0.5시간이 필요하다.&lt;/li>
+&lt;li>직관적 해법: 달리는 기차 위에서 모자와 사공이 이동하는 것에 비유한다면, 사공은 그저 왔던 길을 다시 돌아가면 된다. 0.5시간이 필요하다.&lt;/li>
+&lt;li>Root-Bernstein은 두 해법을 대수적 사고와 기하적 사고로 구분하였다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>막스 보른과 폰 노이만의 일화에 등장한 유명한 파리 퍼즐. &amp;ldquo;두 자전거는 20마일(약 32km) 떨어진 곳에서 출발하여 시속 10마일(약 16km)의 속도로 서로를 향해 이동하다가 충돌한다. 한편, 파리는 두 자전거 사이를 시속 15마일(약 24km)의 속도로 끊임없이 왕복하다가 충돌로 인해 찌그러진다. 파리가 총 몇 마일(약 24km)을 이동했는가?&amp;rdquo;
+&lt;ul>
+&lt;li>대수적 해법(무한급수): &lt;a href="https://gcher.com/posts/2024-04-10-von-neumann-fly">링크로 대체&lt;/a>&lt;/li>
+&lt;li>직관적 해법: 어떻게 왕복하든 파리는 1시간을 이동하므로 당연히 15마일(24km)을 이동했을 것이다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="reference">Reference&lt;/h3>
+&lt;p>&lt;strong>Chereau, Guillaume.&lt;/strong> 2024. &amp;ldquo;&lt;em>How did John von Neumann solved the fly and bicycles puzzle?&lt;/em>.&amp;rdquo; Guillaume Chereau Website. &lt;a href="https://gcher.com/posts/2024-04-10-von-neumann-fly/">https://gcher.com/posts/2024-04-10-von-neumann-fly/&lt;/a>.&lt;/p></description></item><item><title>Sofía Belén López Vicens</title><link>https://cybermandoo.github.io/posts/human/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens/</link><pubDate>Fri, 04 Jul 2025 00:09:21 +0900</pubDate><guid>https://cybermandoo.github.io/posts/human/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens/</guid><description>&lt;h3 id="이름">이름&lt;/h3>
 &lt;ul>
 &lt;li>이름: 소피아 벨렌 로페스 비센스(Sofía Belén López Vicens)&lt;/li>
 &lt;li>국적: 아르헨티나&lt;/li>
 &lt;/ul>
 &lt;h3 id="주요-이력">주요 이력&lt;/h3>
 &lt;ul>
-&lt;li>국제정보올림피아드 아르헨티나 대표&lt;/li>
+&lt;li>2017년 국제정보올림피아드 아르헨티나 대표&lt;/li>
 &lt;li>모스크바물리기술원 응용물리&amp;amp;수학 학사 중퇴(전쟁으로 인한 독일 이주)&lt;/li>
 &lt;/ul>
 &lt;hr>
