@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Fri, 04 Jul 2025 23:18:17 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>다시 보는 산수</title><link>https://cybermandoo.github.io/posts/learning/%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EB%8A%94-%EC%82%B0%EC%88%98/</link><pubDate>Fri, 04 Jul 2025 23:18:17 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EB%8A%94-%EC%82%B0%EC%88%98/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Sat, 12 Jul 2025 15:36:56 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>분산반복과 지식의 빈도</title><link>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%A7%80%EC%8B%9D%EC%9D%98-%EB%B9%88%EB%8F%84/</link><pubDate>Sat, 12 Jul 2025 15:36:56 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%A7%80%EC%8B%9D%EC%9D%98-%EB%B9%88%EB%8F%84/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;ul>
+&lt;li>일반적인 학습 방법은 고빈도의 지식을 고빈도로 접함으로써 기초적인 부분을 자주 접할 수 있게 된다. 그러나 Anki와 같은 분산반복 프로그램은 이러한 기존의 빈도 개념이 적용되지 않는다.&lt;/li>
+&lt;li>이것은 SRS의 장점이면서 곧 단점이기도 하다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="원인">원인&lt;/h3>
+&lt;ul>
+&lt;li>분산반복 프로그램은 본질적으로 잘 기억되지 않는 카드를 더 고빈도로 접하도록 되어 있다. 단순 어휘 학습 카드의 경우, 쉽고 이전에 많이 접했던 단어는 오히려 저빈도로 학습하며 반대로 생소한 단어는 고빈도로 학습하게 될 것이다.&lt;/li>
+&lt;li>복습의 빈도 외에, 카드를 어떻게 제작하는지에 따라 빈도가 달라질 수 있다. 한 가지 지식에 대해 여러 개의 다양한 카드를 만든다면 그 지식은 분산반복 시스템 내에서 고빈도가 될 가능성이 높다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="장단점">장단점&lt;/h3>
+&lt;h5 id="장점">장점&lt;/h5>
+&lt;ul>
+&lt;li>잘 기억나지 않는 카드를 고빈도로 접하는 것은 기억이라는 목적 하에서 지극히 당연한 것이다.&lt;/li>
+&lt;li>대부분의 개별적 지식은 다시 접하는 데에(엄청난)시간이 걸린다. Issa Rice가 지적하듯, 우리가 잊는 이유 중 하나는 대부분의 지식은 즉각적으로 유용성을 갖지 않기 때문이다.
+&lt;ul>
+&lt;li>가장 대표적인 사례로는 어휘 학습이다. leeway(재량, 만회하다)라는 단어를 Anki로 외운 이후에, 어떤 만화에서 접한 적이 있었다. 이 단어를 Google N-gram으로 2000~2022년의 사용빈도를 찾아보니(Leeway, leeway 통합), 0.000091%였다. 이것은 약 110만 단어 중 1회 등장하는 수준으로, 두꺼운 소설책 10권을 읽으면 1번 정도 볼 일이 있다는 뜻이다. 이 단어를 다시 접할 기회는 어쩌면 없을 수도 있는 것이다.
+&lt;ul>
+&lt;li>사전을 사용하지 않는 다독법으로 이러한 단어들을 습득하는 것은 매우 어려움을 알 수 있고, 모르는 단어를 족족 찾아서 암기하는 방식은 심각한 비효율을 발생시킬 것임을 알 수 있다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="단점">단점&lt;/h5>
+&lt;ul>
+&lt;li>왜곡된 빈도는 언어 사용에 좋지 않은 영향을 미칠 수 있다. 초저빈도의 어려운 단어를 실제의 언어관습보다 더 자주 쓰는 것은 소통의 불편을 야기할 수 있다.&lt;/li>
+&lt;li>가장 기초적인 부분을 다양한 각도로 연습하는 것의 장점을 누릴 수 없다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="해결책">해결책&lt;/h3>
+&lt;h5 id="srs-외적인-해결책">SRS 외적인 해결책&lt;/h5>
+&lt;ul>
+&lt;li>SRS 이외에도 실제로 언어를 사용하거나 연습문제를 푸는 것과 같은 방식으로 지식을 훈련할 수 있다.&lt;/li>
+&lt;/ul>
+&lt;h5 id="srs-내적인-해결책">SRS 내적인 해결책&lt;/h5>
+&lt;ul>
+&lt;li>카드 간에 적절한 중복성/연결성을 갖도록 설계하면 비교적 현실의 빈도를 잘 반영할 수 있다. (참고: &lt;a href="https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%B9%B4%EB%93%9C-%EA%B0%84-%EC%97%B0%EA%B2%B0%EC%84%B1/">분산반복과 카드 간 연결성&lt;/a>)&lt;/li>
+&lt;li>한자를 어휘로 학습하면 자주 등장하는 한자를 자주 반복할 수 있다.&lt;/li>
+&lt;li>언어 공부를 할 때, Anki로 예문 해석을 한다면 역시 어느 정도 현실의 어휘 빈도를 반영할 수 있을 것이다.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="reference">Reference&lt;/h3>
+&lt;p>&lt;strong>Rice, Issa.&lt;/strong> n.d. &amp;ldquo;Spaced Repetition Is Useful Because Most Knowledge Is Sparsely Applicable.&amp;rdquo; &lt;em>Issawiki&lt;/em>. Accessed July 12, 2025. &lt;a href="https://wiki.issarice.com/wiki/Spaced_repetition_is_useful_because_most_knowledge_is_sparsely_applicable">https://wiki.issarice.com/wiki/Spaced_repetition_is_useful_because_most_knowledge_is_sparsely_applicable&lt;/a>.&lt;/p></description></item><item><title>분산반복과 카드 간 연결성</title><link>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%B9%B4%EB%93%9C-%EA%B0%84-%EC%97%B0%EA%B2%B0%EC%84%B1/</link><pubDate>Sat, 12 Jul 2025 15:36:39 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%B9%B4%EB%93%9C-%EA%B0%84-%EC%97%B0%EA%B2%B0%EC%84%B1/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;ul>
+&lt;li>&amp;lt;20가지 원칙&amp;gt;에서 13번과 17번(그리고 3번의 일부)에 해당하는 부분에 대해 설명한다.&lt;/li>
+&lt;li>요점: 좋은 카드는 카드 간의 충분한 연결성이 보장되어야 한다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="20가지-원칙-에서의-논의">&amp;lt;20가지 원칙&amp;gt; 에서의 논의&lt;/h3>
+&lt;h5 id="13번-다른-기억을-참조하라refer-to-other-memories">13번: 다른 기억을 참조하라(Refer to other memories)&lt;/h5>
+&lt;ul>
+&lt;li>기존의 다른 기억을 활용해서 질문을 더 단순하게 만들 수 있다는 것이다.&lt;/li>
+&lt;li>예시로 cringing이라는 단어를 생각해내도록 하는 카드를 들고 있다. 영영사전의 단어 정의는 근원적인 단어를 중심으로 설명하도록 되어 있지만, 학습자의 입장에서 그런 정의가 실용적인 것은 아니다. 따라서 질문을 &amp;ldquo;shamelessly conscious of one&amp;rsquo;s failings and asking in a begging way(뻔뻔하게 자신의 잘못을 알면서 구걸하듯 요청하는)&amp;ldquo;라는 사전적 정의로 하면 복잡하지만, &amp;ldquo;shamelessly humble and supplicant(뻔뻔하게 비굴하고 애원하는)&amp;ldquo;과 같이 쓰면 더 쉽게 알 수 있다. 물론 이것은 humble(비굴한), supplicant(애원하는)와 같은 단어를 이미 학습했을 것을 전제로 한다. 원문에서는 추가적으로 humble이나 supplicant라는 특징적인 어휘로 인해 질문 간 간섭을 피할 수 있다는 부수적 효과도 있음을 설명하고 있다.&lt;/li>
+&lt;/ul>
+&lt;h5 id="17번-중복성은-최소-정보-원칙과-모순되지-않는다redundancydoes-not-contradict-minimum-information-principle">17번: 중복성은 최소 정보 원칙과 모순되지 않는다(Redundancy does not contradict minimum information principle)&lt;/h5>
+&lt;ul>
+&lt;li>&amp;lt;20가지 원칙&amp;gt;에서는 중복성의 다양한 형태를 명시하고 있다.
+&lt;ul>
+&lt;li>단어-의미 순서로 암기하는 것과 의미-단어 순으로 암기하는 것&lt;/li>
+&lt;li>추론 혹은 수학적 유도과정의 개별 단계를 암기하는 것&lt;/li>
+&lt;li>동일한 지식을 여러 각도에서 다시 표현하는 여러 개의 카드&lt;/li>
+&lt;li>여러 개의 가능한 답변 중 하나만 답변해도 옳게 처리하는 동의어 카드&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h5 id="3번-기초를-바탕으로-구축해라">3번: 기초를 바탕으로 구축해라&lt;/h5>
+&lt;ul>
+&lt;li>카드 간 연결성을 직접적으로 명시하고 있는 부분은 아니지만, &amp;ldquo;You can always build upon them later on&amp;quot;이라는 구절에서 생각해 볼 때 기본적 지식을 바탕으로 더 심화된 형태의 카드를 만들 수 있다는 점에서 카드 간 연결성을 간접적으로 암시하고 있다고 해석된다.&lt;/li>
+&lt;li>기초를 확실히 하라는 것 이상의 암시적 메시지를 담고 있는 이 부분은 기본적으로 증분읽기 방법의 기본 원리를 염두에 두고 작성한 것으로 추측할 수 있다. 실제로 증분 읽기는 &amp;lt;20가지 원칙&amp;gt;(1999) 이후 1년 후(2000)에 출시되었다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="개인적-일화">개인적 일화&lt;/h3>
+&lt;h5 id="본인의-사례">본인의 사례&lt;/h5>
+&lt;ul>
+&lt;li>한자 학습의 경우, 어휘를 통해 학습하여 적절한 연결성을 확보할 수 있다.&lt;/li>
+&lt;/ul>
+&lt;h5 id="타인의-사례">타인의 사례&lt;/h5>
+&lt;ul>
+&lt;li>&lt;a href="https://cybermandoo.github.io/posts/learning/michael-nielsen%EC%9D%98-anki-%ED%95%99%EC%8A%B5%EB%B2%95/">Michael Nielsen의 경우&lt;/a>에 orphan cards를 피하라고 조언하고 있다. 다른 카드 혹은 자신의 기존 지식과 결합되지 않는 경우, 자꾸 틀리게 되고 카드를 만들고 공부하는 것 자체가 낭비가 된다고 표현하고 있다.&lt;/li>
+&lt;li>&lt;a href="https://cybermandoo.github.io/posts/learning/paul-raymond-robichaud%EC%9D%98-srs-%EC%88%98%ED%95%99-%ED%95%99%EC%8A%B5%EB%B2%95/">Paul Raymond-Robichaud의 경우&lt;/a>, 이전에 증명한 정리를 다른 카드에 사용한다.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="reference">Reference&lt;/h3>
+&lt;p>&lt;strong>Wozniak, Piotr.&lt;/strong> 1999. &amp;ldquo;20 Rules of Formulating Knowledge.&amp;rdquo; &lt;em>SuperMemo&lt;/em>. February 1999. &lt;a href="https://super-memory.com/articles/20rules.htm">https://super-memory.com/articles/20rules.htm&lt;/a>.&lt;/p></description></item><item><title>20250712 토익 공부 (거의) 안 하고 토익 보기</title><link>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250712-%ED%86%A0%EC%9D%B5-%EA%B3%B5%EB%B6%80-%EA%B1%B0%EC%9D%98-%EC%95%88-%ED%95%98%EA%B3%A0-%ED%86%A0%EC%9D%B5-%EB%B3%B4%EA%B8%B0/</link><pubDate>Sat, 12 Jul 2025 12:57:00 +0900</pubDate><guid>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250712-%ED%86%A0%EC%9D%B5-%EA%B3%B5%EB%B6%80-%EA%B1%B0%EC%9D%98-%EC%95%88-%ED%95%98%EA%B3%A0-%ED%86%A0%EC%9D%B5-%EB%B3%B4%EA%B8%B0/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;h3 id="준비물">준비물&lt;/h3>
+&lt;ul>
+&lt;li>규정 신분증&lt;/li>
+&lt;li>연필&lt;/li>
+&lt;li>지우개&lt;/li>
+&lt;li>아날로그 손목시계&lt;/li>
+&lt;/ul>
+&lt;h3 id="무엇을-공부했는가">무엇을 공부했는가&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Anki&lt;/strong>: 3709개 어휘 학습; 이 중 3693개의 어휘에 있는 예문을 읽을 수 있음. 이 중 775개는 토익 어휘/숙어임&lt;/li>
+&lt;li>틈날 때마다 라노벨 오디오북 청취&lt;/li>
+&lt;/ul>
+&lt;h3 id="시험-후-작성할-것">시험 후 작성할 것&lt;/h3>
+&lt;ul>
+&lt;li>LC: 라노벨 오디오북 청취가 실제로 도움이 됐는지?&lt;/li>
+&lt;li>어휘/RC: 3709개의 어휘를 늘린 것이 과연 얼마나 도움이 됐는가?&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="reference">Reference&lt;/h3>
+&lt;p>&lt;strong>YBM/YBM Net.&lt;/strong> 2025. &amp;ldquo;TOEIC 시험 응시규정 및 수험자 유의사항.&amp;rdquo; &lt;em>YBM TOEIC&lt;/em>. July 12, 2025. &lt;a href="https://m.exam.toeic.co.kr/common/template/viewContents.php?contentsCode=36">https://m.exam.toeic.co.kr/common/template/viewContents.php?contentsCode=36&lt;/a>.&lt;/p></description></item><item><title>다시 보는 산수</title><link>https://cybermandoo.github.io/posts/learning/%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EB%8A%94-%EC%82%B0%EC%88%98/</link><pubDate>Fri, 04 Jul 2025 23:18:17 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EB%8A%94-%EC%82%B0%EC%88%98/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;p>&lt;a href="https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/">곱셈과 분수의 크기 비교&lt;/a>&lt;/p></description></item><item><title>곱셈과 분수의 크기 비교</title><link>https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/</link><pubDate>Fri, 04 Jul 2025 18:07:03 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EA%B3%B1%EC%85%88%EA%B3%BC-%EB%B6%84%EC%88%98%EC%9D%98-%ED%81%AC%EA%B8%B0-%EB%B9%84%EA%B5%90/</guid><description>&lt;h3 id="355x356-vs-354x357">355x356 vs 354x357&lt;/h3>
 &lt;ul>
 &lt;li>Gary. R. Gruber는 SAT 수학 교재에서 355x356와 354x357의 크기를 비교하는 7가지 방식을 선보인다.&lt;/li>
@@ -220,7 +321,7 @@
 &lt;ul>
 &lt;li>증명을 최대한 짧게 여러 줄(최대 6-8줄)로 압축하여, 각 줄을 cloze하는 방식&lt;/li>
 &lt;li>큰 증명은 여러 개의 작은 증명으로 분리한다. (원자성 강조)&lt;/li>
-&lt;li>하나의 증명을 다른 증명에서 다시 사용&lt;/li>
+&lt;li>하나의 증명을 다른 증명에서 다시 사용 (참고: &lt;a href="https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%B9%B4%EB%93%9C-%EA%B0%84-%EC%97%B0%EA%B2%B0%EC%84%B1/">분산반복과 카드 간 연결성&lt;/a>)&lt;/li>
 &lt;li>최대한의 추상화를 강조. 추상화는 적용 가능성을 극대화한다.&lt;/li>
 &lt;li>Image Occlusion을 사용하지 않고, Latex를 사용하여 수정할 수 있게 한다.&lt;/li>
 &lt;li>때로는 자신만의 수학 기호를 만들 필요도 있다&lt;/li>
@@ -242,7 +343,7 @@
 &lt;/ul>
 &lt;hr>
 &lt;h3 id="reference">Reference&lt;/h3>
-&lt;p>&lt;strong>Experimental Learning.&lt;/strong> 2021. &amp;ldquo;&lt;em>Spaced Repetition for Mathematics: A Quick Summary&lt;/em>.&amp;rdquo; YouTube video, 8:12. February 21, 2021. &lt;a href="https://www.youtube.com/watch?v=xgsc7stSoUw">https://www.youtube.com/watch?v=xgsc7stSoUw&lt;/a>.&lt;/p></description></item><item><title>Anki의 탈맥락화 특성</title><link>https://cybermandoo.github.io/posts/learning/anki%EC%9D%98-%ED%83%88%EB%A7%A5%EB%9D%BD%ED%99%94-%ED%8A%B9%EC%84%B1/</link><pubDate>Thu, 03 Jul 2025 16:16:25 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki%EC%9D%98-%ED%83%88%EB%A7%A5%EB%9D%BD%ED%99%94-%ED%8A%B9%EC%84%B1/</guid><description>&lt;h3 id="설명">설명&lt;/h3>
+&lt;p>&lt;strong>Experimental Learning.&lt;/strong> 2021. &amp;ldquo;&lt;em>Spaced Repetition for Mathematics: A Quick Summary&lt;/em>.&amp;rdquo; YouTube video, 8:12. February 21, 2021. &lt;a href="https://www.youtube.com/watch?v=xgsc7stSoUw">https://www.youtube.com/watch?v=xgsc7stSoUw&lt;/a>.&lt;/p></description></item><item><title>분산반복의 탈맥락화 특성</title><link>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EC%9D%98-%ED%83%88%EB%A7%A5%EB%9D%BD%ED%99%94-%ED%8A%B9%EC%84%B1/</link><pubDate>Thu, 03 Jul 2025 16:16:25 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EC%9D%98-%ED%83%88%EB%A7%A5%EB%9D%BD%ED%99%94-%ED%8A%B9%EC%84%B1/</guid><description>&lt;h3 id="설명">설명&lt;/h3>
 &lt;ul>
 &lt;li>Anki가 학습의 형태를 매우 단순한 것으로 만들어준다는 장점은 있지만, 모든 종류의 학습을 대체하는 데는 아직 한계가 있다. 가장 문제가 되는 것은 Anki의 본질적인 탈맥락화이다. 원자성 원리에 의해 가장 좁은 영역에 몰입하도록 유도하는 방식은 Anki의 장점이면서도 정보의 맥락을 소거해야 한다는 치명적인 단점을 갖게 된다.&lt;/li>
 &lt;li>수학이나 경제학을 학습할 때, 미리 만들어진 덱을 사용하지 못하는 것은 바로 맥락 없이 성립하지 못하는 이해를 Anki만으로는 유도하기 어렵기 때문이다.&lt;/li>
@@ -303,7 +404,13 @@
 &lt;li>계속해서 Anki의 숙련도를 높이기 위해 노력할 것&lt;/li>
 &lt;li>Anki를 이해의 도구로 사용할 수 있도록 노력할 것&lt;/li>
 &lt;li>복잡한 덱 구조 대신 큰 덱 하나에 지식을 섞을 것&lt;/li>
-&lt;li>orphan question 피하기&lt;/li>
+&lt;li>orphan question 피하기
+&lt;ul>
+&lt;li>lonely orphans: single questions that are largely disconnected from everything else로 정의내리고 있음.&lt;/li>
+&lt;li>유용한 아이디어가 보이면 적어도 2개 이상의 질문으로 만든다는 규칙을 갖고 있음&lt;/li>
+&lt;li>연관: &lt;a href="https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%B9%B4%EB%93%9C-%EA%B0%84-%EC%97%B0%EA%B2%B0%EC%84%B1/">분산반복과 카드 간 연결성&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>덱을 공유하지 않음, 덱을 직접 만들기
 &lt;ul>
 &lt;li>Nielsen은 대인관계와 같은 사적인 사항도 덱에 넣었다고 함&lt;/li>
@@ -432,4 +539,8 @@ DET, TOEFL, TOEIC Speaking, OPIC 등의 말하기나 쓰기를 직접적으로 �
 &lt;/code>&lt;/pre>&lt;p>&lt;img src="https://cybermandoo.github.io/posts/makima/makima_hu_1eda6cafd5146220.png" width="200" height="245" alt="마키마 이미지">
 &lt;img src="./makima.png" alt="마키마 이미지" width="200">&lt;/p>
 &lt;p>&lt;img src="./makima.png" alt="" width="200">&lt;/p>
-&lt;p>&lt;img src="https://cybermandoo.github.io/posts/makima/makima.png" alt="">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://cybermandoo.github.io/posts/makima/makima.png" alt="">&lt;/p></description></item><item><title/><link>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0-%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%98%81%EC%9B%90%ED%95%9C-%EA%B3%B5%EB%B6%80/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0-%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%98%81%EC%9B%90%ED%95%9C-%EA%B3%B5%EB%B6%80/</guid><description/></item><item><title/><link>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%A7%80%EC%A0%81-%EA%B8%B0%EC%88%A0-%ED%9B%88%EB%A0%A8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%A7%80%EC%A0%81-%EA%B8%B0%EC%88%A0-%ED%9B%88%EB%A0%A8/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;ul>
+&lt;li>Anki로 개별적인 지식을 학습하는 것 이상으로, 여러 개의 카드가 공통된 지적 기술(특히 논리적 사고나 증명)을 훈련하도록 유도하는 방법에 대해 논의하는 문서이다.&lt;/li>
+&lt;li>어학의 경우, chunk를 작문하도록 유도(사례: &lt;a href="#" style="color: red;">[BROKEN LINK: content/posts/Project/Anki Project - English Speaking.md] Anki Project - English Speaking&lt;/a>)하는 것은 기본적으로 표현을&lt;/li>
+&lt;/ul></description></item></channel></rss>
