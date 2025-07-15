@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Sat, 12 Jul 2025 16:39:51 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>분산 반복과 영원한 공부</title><link>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0-%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%98%81%EC%9B%90%ED%95%9C-%EA%B3%B5%EB%B6%80/</link><pubDate>Sat, 12 Jul 2025 16:39:51 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0-%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%98%81%EC%9B%90%ED%95%9C-%EA%B3%B5%EB%B6%80/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Mon, 14 Jul 2025 16:20:08 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Anki는 순발력이 필요한 대답에 한계가 있다</title><link>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</link><pubDate>Mon, 14 Jul 2025 16:20:08 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</guid><description>&lt;h3 id="논의">논의&lt;/h3>
+&lt;ul>
+&lt;li>암산이나 RFT훈련에 비해 저빈도의 반복 노출을 사용하는 Anki의 특성상, 단일 정보에 대한 반응의 유창성을 상승시키는 데에는 일정한 한계가 있을 수 있다.&lt;/li>
+&lt;li>답안이 명확하고 다른 방식의 답안의 여지가 적다는 전제 하에, typing 타입의 카드를 사용하고 시간 제한과 오답 시 자동으로 again처리하는 방식으로 다른 유창성 기반 게임과 유사한 구성을 사용할 수 있다.
+&lt;ul>
+&lt;li>&amp;ldquo;오답 시 자동으로 again처리&amp;rdquo; 부분은 아직 공식 기능이나 addon으로 구현된 것이 없다.
+&lt;ul>
+&lt;li>신습 시에도 자동으로 again처리되는 경우라면 상당히 곤란해진다. 일단 보고서 암기를 해야 하는데 그럴 수 없으니까!&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Anki 일일 신습 카드 개수의 동적 결정</title><link>https://cybermandoo.github.io/posts/learning/anki-%EC%9D%BC%EC%9D%BC-%EC%8B%A0%EC%8A%B5-%EC%B9%B4%EB%93%9C-%EA%B0%9C%EC%88%98%EC%9D%98-%EB%8F%99%EC%A0%81-%EA%B2%B0%EC%A0%95/</link><pubDate>Mon, 14 Jul 2025 16:20:00 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki-%EC%9D%BC%EC%9D%BC-%EC%8B%A0%EC%8A%B5-%EC%B9%B4%EB%93%9C-%EA%B0%9C%EC%88%98%EC%9D%98-%EB%8F%99%EC%A0%81-%EA%B2%B0%EC%A0%95/</guid><description>&lt;h3 id="배경">배경&lt;/h3>
+&lt;ul>
+&lt;li>Anki에는 일일복습제한(daily review limit)을 설정할 수 있는 기능이 있다. 이 일일복습제한에 맞춰 그 날의 신습 카드 개수 역시 자동으로 조정된다. 예를 들어 일일복습제한을 55개, 신습 카드 상한을 15개로 설정하였고, 당일 할당된 복습량이 48개라면 그날의 신습 카드는 55-48=7개가 된다. 편의를 위해 이를 일일 신습 카드 개수의 동적 결정(dynamic determination of the daily new card count), 줄여서 DNC로 부르기로 한다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="논의">논의&lt;/h3>
+&lt;ul>
+&lt;li>daily review limit에는 별도로 설정하지 않는 한 기본적으로 new card limit이 포함되어 있다. 이 점을 고려하면 daily study limit이 옳은 표현이 되지만, new card limit이 포함되지 않았던 구 버전 Anki의 명칭을 유지하기로 선택한 것으로 생각된다.&lt;/li>
+&lt;li>DNC는 난이도 조절 장치로 기능한다. Anki 세션의 난이도는 얼마나 많은 카드를 신습하는가, 그리고 복습 간격을 얼마나 빠르게 늘리는가로 표현될 수 있다. 복습 간격이 짧은 카드는 어려운 카드일 가능성이 높고, 따라서 카드 신습의 개수를 줄임으로서 세션 전체의 난이도를 비슷한 수준으로 유지할 수 있다.&lt;/li>
+&lt;li>DNC 하에서 신습 카드의 개수가 시계열적으로 어떤 경로를 따를 것인가는 단기, 중기, 장기로 나눠서 생각할 수 있다. 단기적으로는 복습 카드가 증가하면 신습 카드가 감소하고 이에 따라 다시 복습 카드가 감소하며 신습 카드가 증가하게 된다. 중기에서는 이에 따라 복습 카드와 신습 카드가 일정한 균형을 이루는 지점에 도달할 것으로 추측해 볼 수 있다. 장기적으로 보면 review limit의 대부분은 복습 카드가 차지하고 신습 카드의 개수는 상당히 줄어들 것으로 추정되는데, 꾸준히 신습 카드를 추가하고 복습 카드를 삭제하지 않는다는 전제 하에서 장기적으로 Anki의 복습량은 증가하도록 되어 있기 때문이다.&lt;/li>
+&lt;li>DNC 기능은 매일 일정한 수준의 학습 시간을 유지하기 위한 목적으로 사용할 수 있지만, 카드 하나에 들이는 시간은 복습 카드보다 신습 카드에서 더 짧다는 비대칭성을 고려해야 한다. 일정한 학습 시간을 의도하고 일일 학습량을 설정하여도 복습 카드와 신습 카드의 비율이 달라지면 일정한 학습 시간을 유지하기 어렵다.&lt;/li>
+&lt;li>신습량이 지나치게 적어지지 않도록 하려면 조금씩 수정해야 한다는 문제점이 있다. 단일한 설정을 반영구적으로 유지하는 것이 어려운 것이다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="이-시스템의-대안">이 시스템의 대안&lt;/h3>
+&lt;ul>
+&lt;li>Addon 등으로 구현해야 한다.
+&lt;ul>
+&lt;li>일정한 학습 시간 유지: 매일 학습 시간을 일정하게 유지하기 위한 문제: 신습 카드와 복습 카드의 평균 소요 시간을 각각 고려하고, 미리 설정해 둔 학습 시간을 고려하여 신습 카드의 수를 결정한다.
+&lt;ul>
+&lt;li>평균 소요 시간은 본질적으로 일정하지 못하다는 문제에 봉착할 수 있다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>신습량이 지나치게 적어지지 않도록 하기: 신습 카드 수의 상한 뿐만 아니라 하한 역시 미리 결정할 수 있도록 한다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>분산 반복과 영원한 공부</title><link>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0-%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%98%81%EC%9B%90%ED%95%9C-%EA%B3%B5%EB%B6%80/</link><pubDate>Sat, 12 Jul 2025 16:39:51 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%B6%84%EC%82%B0-%EB%B0%98%EB%B3%B5%EA%B3%BC-%EC%98%81%EC%9B%90%ED%95%9C-%EA%B3%B5%EB%B6%80/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;ul>
 &lt;li>분산 반복의 길에 접어들었다면 한 가지 염두에 두어야 할 사실이 있다. 한 과목을 평생 공부하게 된다는 것이다.&lt;/li>
 &lt;li>Issa Rice는 분산 반복의 감정적 어려움 중 하나로 &amp;ldquo;영원히 공부해야 한다는 기분&amp;quot;을 제시했다. 예를 들어 전통적인 학습 방식으로 선형대수학 과목을 수강하고 나면, 실제로는 상당 부분을 잊어버릴지라도, 사회적으로는 그 과목을 잘 알고 있는 것으로 인정받고 스스로도 그렇게 느끼게 된다. 하지만 분산반복법으로 학습한 사람은 2년 후에도 그 과목을 계속 공부하고 있는 것처럼 느낄 수 있다는 것이다. 잊어버렸고 새로 배워야 하는 것을 끝없이 상기시켜 주는 것이 분산 반복의 목적이기 때문이다.&lt;/li>
@@ -573,4 +609,5 @@ build your own
 레이달리오 책
 예측
 lesswrong
-gwern&lt;/p></description></item></channel></rss>
+gwern
+뻔하지 않은 이야기를 하는 법&lt;/p></description></item></channel></rss>
