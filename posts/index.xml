@@ -75,7 +75,7 @@
 &lt;h5 id="장점">장점&lt;/h5>
 &lt;ul>
 &lt;li>잘 기억나지 않는 카드를 고빈도로 접하는 것은 기억이라는 목적 하에서 지극히 당연한 것이다.&lt;/li>
-&lt;li>대부분의 개별적 지식은 다시 접하는 데에(엄청난)시간이 걸린다. Issa Rice가 지적하듯, 우리가 잊는 이유 중 하나는 대부분의 지식은 즉각적으로 유용성을 갖지 않기 때문이다.
+&lt;li>대부분의 개별적 지식은 다시 접하는 데에(엄청난)시간이 걸린다. Issa Rice가 지적하듯, 우리가 잊는 이유 중 하나는 대부분의 지식은 가끔씩만 유용한 것이기(sparsely applicable)때문이다.
 &lt;ul>
 &lt;li>가장 대표적인 사례로는 어휘 학습이다. leeway(재량, 만회하다)라는 단어를 Anki로 외운 이후에, 어떤 만화에서 접한 적이 있었다. 이 단어를 Google N-gram으로 2000~2022년의 사용빈도를 찾아보니(Leeway, leeway 통합), 0.000091%였다. 이것은 약 110만 단어 중 1회 등장하는 수준으로, 두꺼운 소설책 10권을 읽으면 1번 정도 볼 일이 있다는 뜻이다. 이 단어를 다시 접할 기회는 어쩌면 없을 수도 있는 것이다.
 &lt;ul>
@@ -342,10 +342,15 @@
 &lt;p>&lt;a href="https://cybermandoo.github.io/posts/learning/michael-nielsen%EC%9D%98-anki-%ED%95%99%EC%8A%B5%EB%B2%95/">Michael Nielsen의 Anki 학습법&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h3 id="reference">Reference&lt;/h3>
-&lt;p>&lt;strong>Nielsen, Michael.&lt;/strong> n.d. &amp;ldquo;Michael Nielsen.&amp;rdquo; Accessed July 4, 2025. &lt;a href="https://michaelnielsen.org/">https://michaelnielsen.org/&lt;/a>.&lt;/p></description></item><item><title>Anki로 STEM을 공부한 사례</title><link>https://cybermandoo.github.io/posts/learning/anki%EB%A1%9C-stem%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%9C-%EC%82%AC%EB%A1%80/</link><pubDate>Thu, 03 Jul 2025 23:50:46 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki%EB%A1%9C-stem%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%9C-%EC%82%AC%EB%A1%80/</guid><description>&lt;ul>
+&lt;p>&lt;strong>Nielsen, Michael.&lt;/strong> n.d. &amp;ldquo;Michael Nielsen.&amp;rdquo; Accessed July 4, 2025. &lt;a href="https://michaelnielsen.org/">https://michaelnielsen.org/&lt;/a>.&lt;/p></description></item><item><title>Anki로 STEM을 공부한 사례</title><link>https://cybermandoo.github.io/posts/learning/anki%EB%A1%9C-stem%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%9C-%EC%82%AC%EB%A1%80/</link><pubDate>Thu, 03 Jul 2025 23:50:46 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki%EB%A1%9C-stem%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%9C-%EC%82%AC%EB%A1%80/</guid><description>&lt;h3 id="다른-사람의-사례">다른 사람의 사례&lt;/h3>
+&lt;ul>
 &lt;li>&lt;a href="https://cybermandoo.github.io/posts/learning/michael-nielsen%EC%9D%98-anki-%ED%95%99%EC%8A%B5%EB%B2%95/">Michael Nielsen의 Anki 학습법&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://cybermandoo.github.io/posts/learning/paul-raymond-robichaud%EC%9D%98-srs-%EC%88%98%ED%95%99-%ED%95%99%EC%8A%B5%EB%B2%95/">Paul Raymond-Robichaud의 SRS 수학 학습법&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://cybermandoo.github.io/posts/learning/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens%EC%9D%98-anki-%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%EB%B2%95/">Sofía Belén López Vicens의 Anki 수학 공부법&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="내-사례">내 사례&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#" style="color: red;">[BROKEN LINK: content/posts/Project/Anki Project - Erudite Deck/index.md] Erudite Deck&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Sofía Belén López Vicens의 Anki 수학 공부법</title><link>https://cybermandoo.github.io/posts/learning/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens%EC%9D%98-anki-%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%EB%B2%95/</link><pubDate>Thu, 03 Jul 2025 23:48:33 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens%EC%9D%98-anki-%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%EB%B2%95/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;ul>
 &lt;li>국제정보올림피아드 아르헨티나 대표 출신의 수재이자, 모스크바 물리기술대학 신입생인 &lt;a href="https://cybermandoo.github.io/posts/human/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens/">Sofía Belén López Vicens&lt;/a>가 첫 학기에 Anki로 어떻게 수학 과목을 학습했는지 설명하는 글이다.&lt;/li>
