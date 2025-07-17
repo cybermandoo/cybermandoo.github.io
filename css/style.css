@@ -913,3 +913,29 @@ body.dark-mode .chart-container {
     background-color: var(--color-sidebar-background);
 }
 
+
+
+/* ========================================= */
+/* 표 (Table) 스타일            */
+/* ========================================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

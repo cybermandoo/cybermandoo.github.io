@@ -1,4 +1,200 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Mon, 14 Jul 2025 16:20:08 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Anki는 순발력이 필요한 대답에 한계가 있다</title><link>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</link><pubDate>Mon, 14 Jul 2025 16:20:08 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</guid><description>&lt;h3 id="논의">논의&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Wed, 16 Jul 2025 14:48:11 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Erudite Deck - Linear Algebra</title><link>https://cybermandoo.github.io/posts/project/erudite-deck---linear-algebra/</link><pubDate>Wed, 16 Jul 2025 14:48:11 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/erudite-deck---linear-algebra/</guid><description>&lt;p>Robert A. Beezer의 &amp;lt;A First Course in Linear Algebra&amp;gt;의 챕터를 정리한 페이지&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>번호&lt;/th>
+ &lt;th>제목&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>1&lt;/td>
+ &lt;td>What is Linear Algebra&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>2&lt;/td>
+ &lt;td>Solving Systems of Linear Equations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>3&lt;/td>
+ &lt;td>Reduced Row-Echelon Form&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>4&lt;/td>
+ &lt;td>Types of Solution Sets&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>5&lt;/td>
+ &lt;td>Homogeneous Systems of Equations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>6&lt;/td>
+ &lt;td>Nonsingular Matrices&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>7&lt;/td>
+ &lt;td>Vector Operations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>8&lt;/td>
+ &lt;td>Linear Combinations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>9&lt;/td>
+ &lt;td>Spanning Sets&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>10&lt;/td>
+ &lt;td>Linear Independence&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>11&lt;/td>
+ &lt;td>Linear Dependence and Spans&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>12&lt;/td>
+ &lt;td>Orthogonality&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>13&lt;/td>
+ &lt;td>Matrix Operations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>14&lt;/td>
+ &lt;td>Matrix Multiplication&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>15&lt;/td>
+ &lt;td>Matrix Inverses and Systems of Linear Equations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>16&lt;/td>
+ &lt;td>Matrix Inverses and Nonsingular Matrices&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>17&lt;/td>
+ &lt;td>Column and Row Spaces&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>18&lt;/td>
+ &lt;td>Four Subsets&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>19&lt;/td>
+ &lt;td>Vector Spaces&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>20&lt;/td>
+ &lt;td>Subspaces&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>21&lt;/td>
+ &lt;td>Linear Independence and Spanning Sets&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>22&lt;/td>
+ &lt;td>Bases&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>23&lt;/td>
+ &lt;td>Dimension&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>24&lt;/td>
+ &lt;td>Properties of Dimension&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>25&lt;/td>
+ &lt;td>Determinant of a Matrix&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>26&lt;/td>
+ &lt;td>Properties of Determinants of Matrices&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>27&lt;/td>
+ &lt;td>Eigenvalues and Eigenvectors&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>28&lt;/td>
+ &lt;td>Properties of Eigenvalues and Eigenvectors&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>29&lt;/td>
+ &lt;td>Similarity and Diagonalization&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>30&lt;/td>
+ &lt;td>Linear Transformations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>31&lt;/td>
+ &lt;td>Injective Linear Transformations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>32&lt;/td>
+ &lt;td>Surjective Linear Transformations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>33&lt;/td>
+ &lt;td>Invertible Linear Transformations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>34&lt;/td>
+ &lt;td>Vector Representations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>35&lt;/td>
+ &lt;td>Matrix Representations&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>36&lt;/td>
+ &lt;td>Change of Basis&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>37&lt;/td>
+ &lt;td>Orthonormal Diagonalization&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Anki는 순발력이 필요한 대답에 한계가 있다</title><link>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</link><pubDate>Mon, 14 Jul 2025 16:20:08 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</guid><description>&lt;h3 id="논의">논의&lt;/h3>
 &lt;ul>
 &lt;li>암산이나 RFT훈련에 비해 저빈도의 반복 노출을 사용하는 Anki의 특성상, 단일 정보에 대한 반응의 유창성을 상승시키는 데에는 일정한 한계가 있을 수 있다.&lt;/li>
 &lt;li>답안이 명확하고 다른 방식의 답안의 여지가 적다는 전제 하에, typing 타입의 카드를 사용하고 시간 제한과 오답 시 자동으로 again처리하는 방식으로 다른 유창성 기반 게임과 유사한 구성을 사용할 수 있다.
