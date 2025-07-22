@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Mon, 14 Jul 2025 16:20:08 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Anki는 순발력이 필요한 대답에 한계가 있다</title><link>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</link><pubDate>Mon, 14 Jul 2025 16:20:08 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</guid><description>&lt;h3 id="논의">논의&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Mon, 21 Jul 2025 15:12:31 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Erudite Deck - 삼각함수 공식</title><link>https://cybermandoo.github.io/posts/project/erudite-deck---%EC%82%BC%EA%B0%81%EB%B2%95/</link><pubDate>Mon, 21 Jul 2025 15:12:31 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/erudite-deck---%EC%82%BC%EA%B0%81%EB%B2%95/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;p>삼각법은 대수, 기하, 물리에서 다양한 방식으로 응용되는 분야이다. 한국 교육과정에서도 배울 수 있지만, 적어도 본인이 겪은 시기에는 그 내용적 풍부함은 둘째치더라도 수학/공학 교육에서 응용되는 바를 완결된 형식으로 전달해 주지 못했다. Erudite deck을 통해 공식을 다시 찾아봐야 하는 수고로움을 최소화하고 자유자재로 삼각법을 활용할 수 있을 것이다. 모든 필요한 공식을 한 번에 암기하기는 어려우므로, 적절한 목록으로 암기한 것과 앞으로 필요할 때 암기하면 좋은 내용을 정리해 두고자 한다.&lt;/p>
+&lt;h3 id="목록">목록&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 삼각함수의 역수의 정의&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 라디안과 특수각&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 삼각함수의 각 변환
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 일단 기본 3개에 대해서만 ankify&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> csc, sec, cot에 대해서는 필요하면 나중에&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 기하 법칙
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> 사인법칙&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 코사인법칙&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 헤론의 넓이공식&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 삼각함수의 합성&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 각도에 대한 공식
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> 덧셈정리&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 배각의 공식&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 세배각 공식&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 곱-&amp;gt;합차 공식&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 합차 -&amp;gt; 곱 공식&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 삼각함수 미분 공식&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 역삼각함수
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> 미분공식&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 쌍곡선함수&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="reference">Reference&lt;/h3>
+&lt;p>&lt;strong>Wikipedia contributors.&lt;/strong> 2025. &amp;ldquo;List of trigonometric identities.&amp;rdquo; &lt;em>Wikipedia, The Free Encyclopedia&lt;/em>. Accessed July 21, 2025. &lt;a href="https://en.wikipedia.org/wiki/List_of_trigonometric_identities">https://en.wikipedia.org/wiki/List_of_trigonometric_identities&lt;/a>.&lt;/p></description></item><item><title>Anki는 순발력이 필요한 대답에 한계가 있다</title><link>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</link><pubDate>Mon, 14 Jul 2025 16:20:08 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/anki%EB%8A%94-%EC%88%9C%EB%B0%9C%EB%A0%A5%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8C%80%EB%8B%B5%EC%97%90-%ED%95%9C%EA%B3%84%EA%B0%80-%EC%9E%88%EB%8B%A4/</guid><description>&lt;h3 id="논의">논의&lt;/h3>
 &lt;ul>
 &lt;li>암산이나 RFT훈련에 비해 저빈도의 반복 노출을 사용하는 Anki의 특성상, 단일 정보에 대한 반응의 유창성을 상승시키는 데에는 일정한 한계가 있을 수 있다.&lt;/li>
 &lt;li>답안이 명확하고 다른 방식의 답안의 여지가 적다는 전제 하에, typing 타입의 카드를 사용하고 시간 제한과 오답 시 자동으로 again처리하는 방식으로 다른 유창성 기반 게임과 유사한 구성을 사용할 수 있다.
@@ -607,7 +646,48 @@ DET, TOEFL, TOEIC Speaking, OPIC 등의 말하기나 쓰기를 직접적으로 �
 &lt;/code>&lt;/pre>&lt;p>&lt;img src="https://cybermandoo.github.io/posts/makima/makima_hu_1eda6cafd5146220.png" width="200" height="245" alt="마키마 이미지">
 &lt;img src="./makima.png" alt="마키마 이미지" width="200">&lt;/p>
 &lt;p>&lt;img src="./makima.png" alt="" width="200">&lt;/p>
-&lt;p>&lt;img src="https://cybermandoo.github.io/posts/makima/makima.png" alt="">&lt;/p></description></item><item><title/><link>https://cybermandoo.github.io/posts/learning/%EB%AC%B4%EC%A0%9C/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%AC%B4%EC%A0%9C/</guid><description>&lt;p>무기
+&lt;p>&lt;img src="https://cybermandoo.github.io/posts/makima/makima.png" alt="">&lt;/p></description></item><item><title/><link>https://cybermandoo.github.io/posts/learning/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cybermandoo.github.io/posts/learning/test/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>England&lt;/th>
+ &lt;th>Portugal&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Cloth&lt;/td>
+ &lt;td>$a_1$&lt;/td>
+ &lt;td>$a_2$&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Wine&lt;/td>
+ &lt;td>$b_1$&lt;/td>
+ &lt;td>$b_2$&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>England&lt;/th>
+ &lt;th>Portugal&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Cloth&lt;/td>
+ &lt;td>$k_1$&lt;/td>
+ &lt;td>$k_2$&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Wine&lt;/td>
+ &lt;td>$p_1$&lt;/td>
+ &lt;td>$p_2$&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title/><link>https://cybermandoo.github.io/posts/learning/%EB%AC%B4%EC%A0%9C/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%AC%B4%EC%A0%9C/</guid><description>&lt;p>무기
 데이터
 스스로 판단
 build your own
