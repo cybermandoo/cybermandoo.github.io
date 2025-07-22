@@ -1,4 +1,120 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Mon, 21 Jul 2025 15:12:31 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Erudite Deck - 삼각함수 공식</title><link>https://cybermandoo.github.io/posts/project/erudite-deck---%EC%82%BC%EA%B0%81%EB%B2%95/</link><pubDate>Mon, 21 Jul 2025 15:12:31 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/erudite-deck---%EC%82%BC%EA%B0%81%EB%B2%95/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Tue, 22 Jul 2025 14:47:58 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>20250722 Anki 추가 개선 논의</title><link>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250722-anki-%EC%B6%94%EA%B0%80-%EA%B0%9C%EC%84%A0-%EB%85%BC%EC%9D%98/</link><pubDate>Tue, 22 Jul 2025 14:47:58 +0900</pubDate><guid>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250722-anki-%EC%B6%94%EA%B0%80-%EA%B0%9C%EC%84%A0-%EB%85%BC%EC%9D%98/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;p>Anki 학습 경험의 추가적인 개선 가능성&lt;/p>
+&lt;h3 id="아이디어">아이디어&lt;/h3>
+&lt;h5 id="메인-화면을-마인드맵-형식으로-표현">메인 화면을 마인드맵 형식으로 표현&lt;/h5>
+&lt;ul>
+&lt;li>Erudite 덱이 상당히 구조가 복잡한 상태인데, 이를 보기 쉽게 마인드맵(혹은 온톨로지)형식으로 보여줄 수 있으면 어떨까&lt;/li>
+&lt;/ul>
+&lt;h5 id="구체적으로">구체적으로&lt;/h5></description></item><item><title>2025년 7월 22일</title><link>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250722-anki-%ED%83%80%EC%9D%B4%EB%A8%B8-%EC%A1%B0%EC%A0%95/</link><pubDate>Tue, 22 Jul 2025 13:58:50 +0900</pubDate><guid>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250722-anki-%ED%83%80%EC%9D%B4%EB%A8%B8-%EC%A1%B0%EC%A0%95/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;p>Anki 학습의 효율성을 재고하기 위해 타이머를 적절히 조절하는 과정을 보여준다.&lt;/p>
+&lt;h3 id="과정">과정&lt;/h3>
+&lt;h5 id="현재-설정">현재 설정&lt;/h5>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>카드당 소요 시간&lt;/th>
+ &lt;th>타이머(앞면)&lt;/th>
+ &lt;th>타이머(뒷면)&lt;/th>
+ &lt;th>알람&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>영단어&lt;/td>
+ &lt;td>7.46초&lt;/td>
+ &lt;td>10초&lt;/td>
+ &lt;td>10초&lt;/td>
+ &lt;td>7초&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>영어쓰기&lt;/td>
+ &lt;td>24.87초&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>일단어&lt;/td>
+ &lt;td>8.88초&lt;/td>
+ &lt;td>13초&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;td>9초&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>한자쓰기&lt;/td>
+ &lt;td>27.98초&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Erudite&lt;/td>
+ &lt;td>17.73초&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h5 id="논의">논의&lt;/h5>
+&lt;ul>
+&lt;li>한자쓰기와 Erudite는 화이트보드 기능이 있는 모바일 기기로 학습한다.&lt;/li>
+&lt;li>카드 하나를 복습하는 것보다는 새로 학습할 때 시간이 더 걸릴 것이므로, 앞면/뒷면의 타이머를 설정하는 것은 신습을 기준으로 해야 한다.&lt;/li>
+&lt;li>일단어 카드에서 예문을 신습하는 것이 시간이 좀 걸리므로 따로 타이머를 설정하지 않았다. 형식적으로나마 뒷면에 30초를 부여한다.&lt;/li>
+&lt;li>모바일은 자동 진행 기능이 타이머 기능과 유사하긴 하지만 타이머 기능처럼 쓰기는 어렵다. PC의 타이머 애드온과 달리 시간이 얼마나 남았는지를 볼 수 없고, 버튼을 눌러 타이머 정지를 할 수 있는 방법도 없다. 당연히 알람 기능도 없다.&lt;/li>
+&lt;li>영어쓰기는 일단 시범적으로 앞면 20초를 설정한다. 뒷면 타이머는 굳이 필요하지 않고, Gemini에게 자주 질문하므로 오히려 번거로워질 수 있다.&lt;/li>
+&lt;li>한자쓰기는 앞면 30초, 뒷면 30초를 부여한다.&lt;/li>
+&lt;li>Erudite는 앞면 20초, 뒷면 15초를 부여한다.&lt;/li>
+&lt;/ul>
+&lt;h5 id="수정한-타이머">수정한 타이머&lt;/h5>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>타이머(앞면)&lt;/th>
+ &lt;th>타이머(뒷면)&lt;/th>
+ &lt;th>알람&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>영단어&lt;/td>
+ &lt;td>10초&lt;/td>
+ &lt;td>10초&lt;/td>
+ &lt;td>7초&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>영어쓰기&lt;/td>
+ &lt;td>&lt;strong>20초&lt;/strong>&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>일단어&lt;/td>
+ &lt;td>13초&lt;/td>
+ &lt;td>&lt;strong>30초&lt;/strong>&lt;/td>
+ &lt;td>9초&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>한자쓰기&lt;/td>
+ &lt;td>&lt;strong>30초&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>30초&lt;/strong>&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Erudite&lt;/td>
+ &lt;td>&lt;strong>20초&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>15초&lt;/strong>&lt;/td>
+ &lt;td>(없음)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="결론">결론&lt;/h3>
+&lt;ul>
+&lt;li>한자쓰기와 Erudite에서 타이머 기능을 쓰기 위해서는 PC로 학습하고 적을 것은 노트에 적는 식으로 약간의 번거로움을 감수해야 한다.&lt;/li>
+&lt;li>실제로 시간이 얼마나 필요한지 나름대로 학습 과정에서 기록해 두는 것이 좋을 것 같다.&lt;/li>
+&lt;/ul></description></item><item><title>Erudite Deck - 삼각함수 공식</title><link>https://cybermandoo.github.io/posts/project/erudite-deck---%EC%82%BC%EA%B0%81%EB%B2%95/</link><pubDate>Mon, 21 Jul 2025 15:12:31 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/erudite-deck---%EC%82%BC%EA%B0%81%EB%B2%95/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;p>삼각법은 대수, 기하, 물리에서 다양한 방식으로 응용되는 분야이다. 한국 교육과정에서도 배울 수 있지만, 적어도 본인이 겪은 시기에는 그 내용적 풍부함은 둘째치더라도 수학/공학 교육에서 응용되는 바를 완결된 형식으로 전달해 주지 못했다. Erudite deck을 통해 공식을 다시 찾아봐야 하는 수고로움을 최소화하고 자유자재로 삼각법을 활용할 수 있을 것이다. 모든 필요한 공식을 한 번에 암기하기는 어려우므로, 적절한 목록으로 암기한 것과 앞으로 필요할 때 암기하면 좋은 내용을 정리해 두고자 한다.&lt;/p>
 &lt;h3 id="목록">목록&lt;/h3>
 &lt;ul>
