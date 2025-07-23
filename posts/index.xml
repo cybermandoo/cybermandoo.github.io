@@ -114,6 +114,47 @@
 &lt;ul>
 &lt;li>한자쓰기와 Erudite에서 타이머 기능을 쓰기 위해서는 PC로 학습하고 적을 것은 노트에 적는 식으로 약간의 번거로움을 감수해야 한다.&lt;/li>
 &lt;li>실제로 시간이 얼마나 필요한지 나름대로 학습 과정에서 기록해 두는 것이 좋을 것 같다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="결과">결과&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>카드당 소요 시간&lt;/th>
+ &lt;th>카드당 소요 시간&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>영단어&lt;/td>
+ &lt;td>7.46초&lt;/td>
+ &lt;td>7.05초&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>영어쓰기&lt;/td>
+ &lt;td>24.87초&lt;/td>
+ &lt;td>16.23초&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>일단어&lt;/td>
+ &lt;td>8.88초&lt;/td>
+ &lt;td>9.05초&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>한자쓰기&lt;/td>
+ &lt;td>27.98초&lt;/td>
+ &lt;td>22.19초&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Erudite&lt;/td>
+ &lt;td>17.73초&lt;/td>
+ &lt;td>12.3초&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>모든 세션에 걸린 시간의 합도 50분 가량 획기적으로 감소했다.&lt;/li>
+&lt;li>한자쓰기의 경우, 반 정도는 타이머를 적용하지 않고 학습했으므로 더 많은 절감의 여지가 있다.&lt;/li>
 &lt;/ul></description></item><item><title>Erudite Deck - 삼각함수 공식</title><link>https://cybermandoo.github.io/posts/project/erudite-deck---%EC%82%BC%EA%B0%81%EB%B2%95/</link><pubDate>Mon, 21 Jul 2025 15:12:31 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/erudite-deck---%EC%82%BC%EA%B0%81%EB%B2%95/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;p>삼각법은 대수, 기하, 물리에서 다양한 방식으로 응용되는 분야이다. 한국 교육과정에서도 배울 수 있지만, 적어도 본인이 겪은 시기에는 그 내용적 풍부함은 둘째치더라도 수학/공학 교육에서 응용되는 바를 완결된 형식으로 전달해 주지 못했다. Erudite deck을 통해 공식을 다시 찾아봐야 하는 수고로움을 최소화하고 자유자재로 삼각법을 활용할 수 있을 것이다. 모든 필요한 공식을 한 번에 암기하기는 어려우므로, 적절한 목록으로 암기한 것과 앞으로 필요할 때 암기하면 좋은 내용을 정리해 두고자 한다.&lt;/p>
 &lt;h3 id="목록">목록&lt;/h3>
