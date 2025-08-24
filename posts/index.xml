@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Wed, 30 Jul 2025 15:36:56 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>20250730 Anki 전망</title><link>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250730-anki-%EC%A0%84%EB%A7%9D/index.html/</link><pubDate>Wed, 30 Jul 2025 15:36:56 +0900</pubDate><guid>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250730-anki-%EC%A0%84%EB%A7%9D/index.html/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Sat, 23 Aug 2025 20:16:47 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>자기완결적 문장과 cloze</title><link>https://cybermandoo.github.io/posts/learning/%EC%9E%90%EA%B8%B0%EC%99%84%EA%B2%B0%EC%A0%81-%EB%AC%B8%EC%9E%A5%EA%B3%BC-cloze/</link><pubDate>Sat, 23 Aug 2025 20:16:47 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EC%9E%90%EA%B8%B0%EC%99%84%EA%B2%B0%EC%A0%81-%EB%AC%B8%EC%9E%A5%EA%B3%BC-cloze/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
+&lt;ul>
+&lt;li>사이버만두 연구소에서는 Anki의 학습 범주를 지속해서 늘려 오고 있다. 현 시점(2025년 8월 23일)에서는 외국어 어휘 학습 방식을 안정적으로 유지해오고 있고, 영어 chunk 덱의 학습 상황을 조심스럽게 지켜보고 있는 상황이다.&lt;/li>
+&lt;li>이번 문서에서는 자기완결적 문장과 Anki의 cloze deletion 기능을 활용하여 새로운 분야의 학습에 적용하는 방법을 논의해 보고자 한다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="설명">설명&lt;/h3>
+&lt;h5 id="왜-cloze인가">왜 cloze인가?&lt;/h5>
+&lt;ul>
+&lt;li>cloze의 장점은 통상적인 양면 카드와 비교할 때 더 명확하게 알 수 있다.&lt;/li>
+&lt;li>통상적인 양면 카드는 답변의 원자성을 확보하기 위하여, 복합적인 정보를 담은 글에서 단일한 정보를 추출해서 카드로 만드는 방식을 취한다. 이러한 방식은 1) 제작하기 위해서 전제되는 내용 이해도가 매우 높으며(어느 정도의 이해는 당연히 선행되어야 하는 것이지만 좋은 양면 카드를 만들기), 2) 원자성이 있는 카드를 만들기 위해 상당한 시행착오와 시간 소모가 요구되는 반면 숙달되기도 어렵고, 3) 지나친 탈맥락화가 오히려 장기적인 학습을 어렵게 만든다는 단점이 있었다.
+&lt;ul>
+&lt;li>Cloze 방식은 정보의 본질적인 결합 형태와 그 복잡성을 존중하는 방식이며, 그것을 분해하는 데 시간을 낭비하지 않는다. 이 과정에서 정보의 내적 완결성과 충분한 맥락을 확보할 수 있다. 그러면서도 답변의 원자성은 철저히 준수된다.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>AI생성으로 해결할 수는 없었는가? 다양한 방식을 시도했지만 양면 카드의 경우 AI는 질문답변의 맥락 표시, 내용적 포괄성, 답변의 원자성을 대부분 위배하는 결과를 내놓았고, 이 셋 중 어느 것도 AI에게 이해시키는 것은 현재로서는 불가능하다는 결론을 얻었다. 다시 말하면 양면 카드는 이 세 가지를 모두 고려해야 하는 복잡다단한 작업인 것이며, 인간이라고 해서 이 작업을 잘 할 수 있다고 장담할 수 없다.&lt;/li>
+&lt;li>또한 우리는 단일한자와 Erudite 덱의 학습 실패를 통해서 카드들 간의 정보 중복이 어느 정도 있어야 학습을 지속할 수 있다는 통찰을 얻었고, 이는 cloze 방식을 통해 자연스럽게 구현되었다.&lt;/li>
+&lt;li>무엇보다도 Anki 학습법 연구에서 가장 중요한 목표인, 점진적으로 더 높은 수준의 이해를 유도한다는 철학을 양면 카드를 통해서는 좀처럼 구현하기 어려웠다. Cloze 기능은 Anki 덱 내적으로도 문장에 대한 이해를 키워나갈 뿐더러, 완결된 문장에 대한 이해는 곧 더 높은 수준의 이해로도 이어질 수 있게 한다. 이에 대해서는 다시 설명하도록 하겠다.&lt;/li>
+&lt;/ul>
+&lt;h5 id="왜-자기완결적-문장인가">왜 자기완결적 문장인가?&lt;/h5>
+&lt;ul>
+&lt;li>cloze 학습 자료의 품질은 당연히 deletion을 어떤 글에 하는가에 크게 좌우될 수밖에 없다. 자기완결적 문장은 그러한 글이 가져야 하는 특징을 말하는 것이다.&lt;/li>
+&lt;li>자기완결적 문장은 온전한 사실 관계를 담은 문장을 말한다.&lt;/li>
+&lt;li>하나의 문장이 완결된 맥락을 제공하고, 적절한 수준의 길이로 전체를 읽는 데 시간이 너무 오래 걸리지 않아야 한다.&lt;/li>
+&lt;li>읽는 것으로 얕은 층위의 학습, 키워드를 cloze로 암기하면서 중간 층위의 학습을 할 수 있다.&lt;/li>
+&lt;li>원본 자료가 존재할 때, AI를 통해 그로부터 자기완결적 문장을 취득하는 과정은 현재의 LLM으로 상당히 신뢰성 있게 수행할 수 있다.&lt;/li>
+&lt;li>논란의 여지가 있는 부분은 자기완결적 문장의 패턴을 3가지로 한정하는 현재의 프롬프트이다. 이 부분은 실험과 관찰을 통해 보완해 나갈 것이다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="기존의-학습자료를-활용하기">기존의 학습자료를 활용하기&lt;/h3>
+&lt;ul>
+&lt;li>한국사 교재의 빈칸 채우기 자료를 통해 자기완결적 문장을 쉽게 얻을 수 있었다.&lt;/li>
+&lt;li>수험 교재의 선지, 해설지 문장을 활용할 수 있다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="논의">논의&lt;/h3>
+&lt;h5 id="cloze-방식의-한계점">cloze 방식의 한계점&lt;/h5>
+&lt;ul>
+&lt;li>Anki만으로는 문장을 온전히 기억할 수 없다. English Output 덱에서 경험한 바를 상기하는 게 좋다.&lt;/li>
+&lt;li>이 학습 방식은 뇌에 단편적 지식을 심어 두는 것으로, 고등사고의 재료를 마련하는 과정에 비유할 수 없다. 읽기와 쓰기라는 지적 활동을 완전히 대체할 수는 없지만 그 둘이 좀처럼 잘 하지 못했던 것을 하기 위한 것이다.&lt;/li>
+&lt;li>한국사 과목을 학습하면서 일부 단어는 추가적인 검색이 요구되었다.&lt;/li>
+&lt;/ul>
+&lt;h5 id="과거의-cloze-실패-사례와는-무엇이-다른가">과거의 cloze 실패 사례와는 무엇이 다른가&lt;/h5>
+&lt;ul>
+&lt;li>2022년~2023년에는 주로 영어 지문의 어려운 단어에 cloze를 뚫어서 학습하는 방식을 사용했지만 결국 중도 포기한 적이 있었다.
+&lt;ul>
+&lt;li>FSRS의 부재&lt;/li>
+&lt;li>지금과 같이 1년 가까이 Anki를 연속으로 사용한 경험 자체가 없었음(체계적인 동기부여 방법의 부재)&lt;/li>
+&lt;li>수동적으로 cloze deletion을 해야 하고, AI를 활용한 대량 생성 자체가 불가능한 시절이었음&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>20250730 Anki 전망</title><link>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250730-anki-%EC%A0%84%EB%A7%9D/index.html/</link><pubDate>Wed, 30 Jul 2025 15:36:56 +0900</pubDate><guid>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250730-anki-%EC%A0%84%EB%A7%9D/index.html/</guid><description>&lt;h3 id="개요">개요&lt;/h3>
 &lt;ul>
 &lt;li>지금 학습하고 있는 굵직한 Anki 덱을 언제쯤 끝낼 수 있을까? FSRS simulator 기능으로 짐작해보자.&lt;/li>
 &lt;/ul>
