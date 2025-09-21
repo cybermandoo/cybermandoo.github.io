@@ -1,0 +1,52 @@
+<!doctype html><html lang=ko-kr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>수학 증명의 변형 | 사이버 만두</title><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=/css/style.css></head><body><header id=mobile-header class=mobile-header><div class=mobile-header-content><div class=mobile-header-default-items><a href=https://cybermandoo.github.io/ class=mobile-site-title>사이버 만두</a><nav class=mobile-main-nav><a href=/categories/>Category</a>
+<a href=/tags/>Tag</a>
+<a href=/about/>About</a></nav></div><div class=mobile-header-search-items><input type=search id=mobileSearchInput placeholder="검색어를 입력하세요..." autocomplete=off></div><div class=mobile-header-controls><div class=mobile-search-icon><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div class="dark-mode-toggle mobile-dark-mode-toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div></div><ul id=mobileSearchResults class=search-results></ul></header><div class=site-container><aside class=sidebar><div class=sidebar-content><div class=profile><img src=/images/profile.png alt="Profile Picture" class=profile-img></div><div class=site-identity><a href=https://cybermandoo.github.io/ class=site-name-link>사이버 만두</a></div><nav class=main-nav><ul><li><a href=/categories/>Category</a></li><li><a href=/tags/>Tag</a></li><li><a href=/about/>About</a></li></ul></nav><div class=search-container><input type=search id=searchInput placeholder="검색어를 입력하세요..."><ul id=searchResults class=search-results></ul></div><div class=dark-mode-toggle><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div></aside><div class=main-content><div class=content-wrapper><main><article class=post><header class=post-header><h1 class=post-title>수학 증명의 변형</h1><div class=post-meta><span class=post-date><time>2025년 9월 21일</time></span></div></header><section class=post-content><h3 id=개요>개요</h3><ul><li>수학 교재의 증명은 저자의 성향에 따라 가독성이 낮은 산문 형식이거나, 필요한 논점을 누락시키는 등의 문제가 있는데, 이를 해결하기 위해 LLM을 활용해 명확하고 일관된 형식으로 증명을 다시 쓰는 프롬프트이다.</li><li>현재(2025년 9월 21일)로서는 일단 간단한 형태의 초기 버전이며, 여러 방식으로 적용해 보고 수정해야 한다. <a href=https://gemini.google.com/app/e6259c32771fbfff>논의</a></li><li>이 프롬프트는 적절한 변형을 통해 수학/경제학 문제를 위한 프롬프트로도 출시할 것이다.</li></ul><h3 id=프롬프트초기-버전>프롬프트(초기 버전)</h3><h5 id=개선-필요-사항>개선 필요 사항</h5><ul><li>출력 형식을 Anki에 맞게 마크다운이 아닌 HTML 형식으로 바꿔 줘야 한다.</li><li>지시가 모호한 부분의 수정이 필요하다.</li><li>전반적으로 이해는 쉬우나 너무 세부적으로 단계를 나눈 측면이 있어 Anki로 만들기 어렵다. (이 부분은 자료의 종류에 따라 달라질 수 있다)</li><li>실제로 Anki로 만들기 위해서는 등호 앞뒤로 latex 블록을 나눈다거나 하는세부 조건이 필요할 수 있다.<ul><li>참고: <a href=/llm-prompt/prompt---%EC%A0%95%EC%9D%98-%EC%B6%94%EC%B6%9C-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EA%B3%A0%EA%B8%89%EB%AF%B8%EC%8B%9C%EA%B2%BD%EC%A0%9C%ED%95%99i-%EC%88%98%EC%97%85/>Prompt - 정의 추출 프롬프트 (고급미시경제학I 수업)</a></li></ul></li></ul><pre tabindex=0><code># 역할
+
+너는 친절하고 명확하게 설명하는 수학 과외 선생님이야. 복잡한 수학 증명을 학생들이 이해하기 쉬운 형태로 바꾸는 전문가야.
+
+  
+
+# 목표
+
+내가 제공하는 수학 명제와 그에 대한 증명 원문을 Anki 카드에 넣기 좋도록, 아래의 &#39;출력 형식 규칙&#39;에 따라 명확하고 구조화된 증명으로 재작성해 줘.
+
+  
+
+# 증명할 명제
+
+[ 여기에 증명하고 싶은 명제를 입력하세요. 예: &#34;$\sqrt{2}$는 무리수이다.&#34; ]
+
+  
+
+# 교재의 증명 원문
+
+[ 여기에 교재에 나온 증명 내용을 그대로 복사-붙여넣기 하세요. 만약 증명이 생략되었거나 &#34;연습문제로 남긴다&#34;와 같이 나와 있다면, &#34;증명 생략됨&#34; 또는 &#34;연습문제&#34;라고 간단히 적어주세요. ]
+
+  
+
+# 출력 형식 규칙
+
+1.  **제목**: &#34;증명: [증명할 명제]&#34; 형식으로 제목을 가장 먼저 보여줘.
+
+2.  **전략**: 증명을 시작하기 전에, 어떤 증명법(예: 귀류법, 수학적 귀납법, 직접 증명법 등)을 사용할 것인지 간략하게 언급해 줘.
+
+3.  **핵심 아이디어**: 증명 전체를 관통하는 핵심 전략이나 아이디어를 &#39;💡 **핵심 아이디어**&#39; 섹션에 1~2 문장으로 요약해 줘. Anki 카드 앞면에 적어둘 힌트가 될 거야.
+
+4.  **단계별 서술**:
+
+    * 증명의 각 논리적 단계를 번호(1., 2., 3., ...)를 붙여 한 줄씩 명확하게 서술해.
+
+    * 각 단계는 하나의 핵심 주장과 그에 대한 근거를 포함해야 해.
+
+    * 증명이 여러 부분으로 나뉜다면(예: 수학적 귀납법의 &#39;기저 단계&#39;와 &#39;귀납 단계&#39;), 불렛(*)을 사용하여 구조를 명확히 구분해 줘.
+
+5.  **누락된 증명 생성**: 만약 &#39;교재의 증명 원문&#39;이 &#34;증명 생략됨&#34; 또는 불충분한 경우, 네가 직접 논리적 비약 없이 완전한 증명을 생성해야 해. &#34;자명하다&#34;, &#34;쉽게 알 수 있다&#34; 등의 표현은 사용하지 말고 모든 단계를 보여줘야 해.
+
+6.  **수식**: 모든 수학 기호와 수식은 LaTeX 형식으로 작성해 줘. (예: `$x^2 + y^2 = z^2$`)
+
+7.  **결론**: 증명의 마지막 단계에서는 &#34;따라서, [증명할 명제]가 성립한다.&#34; 또는 &#34;Q.E.D.&#34;와 같이 명확하게 결론을 맺어줘.
+
+  
+
+---
+</code></pre></section></article></main><footer class=site-footer><p>&copy; 2025 Cyber Mandoo</p></footer></div></div></div><script src=/js/theme-toggle.js></script><script src=https://cdn.jsdelivr.net/npm/fuse.js@6.6.2></script><script src=/js/search.js></script></body></html>

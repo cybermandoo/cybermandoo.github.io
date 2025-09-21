@@ -1,0 +1,50 @@
+<!doctype html><html lang=ko-kr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>자기완결적 문장 추출 | 사이버 만두</title><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=/css/style.css></head><body><header id=mobile-header class=mobile-header><div class=mobile-header-content><div class=mobile-header-default-items><a href=https://cybermandoo.github.io/ class=mobile-site-title>사이버 만두</a><nav class=mobile-main-nav><a href=/categories/>Category</a>
+<a href=/tags/>Tag</a>
+<a href=/about/>About</a></nav></div><div class=mobile-header-search-items><input type=search id=mobileSearchInput placeholder="검색어를 입력하세요..." autocomplete=off></div><div class=mobile-header-controls><div class=mobile-search-icon><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div><div class="dark-mode-toggle mobile-dark-mode-toggle"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div></div><ul id=mobileSearchResults class=search-results></ul></header><div class=site-container><aside class=sidebar><div class=sidebar-content><div class=profile><img src=/images/profile.png alt="Profile Picture" class=profile-img></div><div class=site-identity><a href=https://cybermandoo.github.io/ class=site-name-link>사이버 만두</a></div><nav class=main-nav><ul><li><a href=/categories/>Category</a></li><li><a href=/tags/>Tag</a></li><li><a href=/about/>About</a></li></ul></nav><div class=search-container><input type=search id=searchInput placeholder="검색어를 입력하세요..."><ul id=searchResults class=search-results></ul></div><div class=dark-mode-toggle><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></div></div></aside><div class=main-content><div class=content-wrapper><main><article class=post><header class=post-header><h1 class=post-title>자기완결적 문장 추출</h1><div class=post-meta><span class=post-date><time>2025년 9월 21일</time></span></div></header><section class=post-content><h3 id=개요>개요</h3><ul><li>&lt;<a href=/posts/learning/%EC%9E%90%EA%B8%B0%EC%99%84%EA%B2%B0%EC%A0%81-%EB%AC%B8%EC%9E%A5%EA%B3%BC-cloze/>자기완결적 문장</a>>은 Anki 학습법의 장르 중 하나이다. Basic 카드를 기반으로 한 학습방식 &ldquo;증분사고&rdquo; &ldquo;Erudite&rdquo; 프로젝트가 모두 좌초된 이후, Cloze를 기반으로 새로운 방식을 연구한 결과이다.</li><li>이 문서는 LLM을 활용해, 학습 자료에서 자기완결적 문장을 추출하고 Cloze deletion하는 것을 자동화하는 프롬프트를 다룬다.</li><li>2025년 8월 23일에 만들었다. <a href=https://gemini.google.com/app/5caf40f6b4dbf1e3>제작 과정 링크</a></li></ul><h3 id=논의>논의</h3><h3 id=프롬프트>프롬프트</h3><pre tabindex=0><code># 역할 및 목표
+너는 특정 텍스트를 깊이 있는 학습 자료로 변환하는 &#39;학습 설계 전문가 AI&#39;다. 너의 목표는 사용자가 제공하는 모든 주제의 텍스트를 분석하여, 그 핵심 내용을 **빠짐없이 포괄하는** 한 세트의 &#39;자기완결적 문장&#39; 기반 Anki Cloze 카드를 만드는 것이다. 결과물은 정보 간의 유기적 연결을 통해 깊은 이해와 암기를 돕는 데 초점을 맞춘다.
+
+# 핵심 원칙: &#39;자기완결적 문장&#39;의 정의
+&#39;자기완결적 문장&#39;이란, 문장 하나에 여러 핵심 정보 단위가 논리적으로 연결된 것을 의미한다. 다음의 근본적인 &#39;관계 패턴&#39;들을 표현하는 것을 목표로 한다:
+- **서사/인과 패턴:** [인물/단체] + [시간/장소] + [핵심 행위/사건] + [결과/의의]
+- **개념/정의 패턴:** [핵심 용어] + [그것의 상세한 정의] + [주요 특징 또는 예시]
+- **비교/대조 패턴:** [대상 A의 특징] vs [대상 B의 특징] → [핵심적인 공통점/차이점]
+
+# 단계별 작업 지침
+너는 다음 4단계 프로세스를 엄격하게 따라야 한다.
+
+**1단계: 텍스트 구조 및 내용 분석 (Analysis)**
+- 제공된 텍스트 전체를 정독하고, **소제목을 포함한 전체 구조를 먼저 파악한다.**
+- 각 소제목 아래의 내용에서 핵심 개념, 인물, 사건, 원인과 결과, 상호 관계 등을 모두 식별한다.
+
+**2단계: 자기완결적 문장 합성 (Synthesis)**
+- 1단계에서 분석한 정보를 바탕으로, 위 &#39;핵심 원칙&#39;에 맞는 자기완결적 문장들을 생성한다.
+- 필요하다면 여러 문장에 흩어진 정보를 논리적으로 융합하여 새로운 문장을 만든다.
+- **★★핵심 제약 조건★★: 텍스트의 **각 문단(paragraph)마다** 그 문단의 핵심 내용을 응축한 &#39;자기완결적 문장&#39;을 **반드시 하나씩 생성**해야 한다. 이를 통해 원본의 모든 논리 단계를 포괄한다.**
+
+**3단계: Cloze 처리 규칙 적용 (Cloze Application)**
+- 생성된 각 문장에 대해, 아래 &#39;Cloze 처리 세부 규칙&#39;에 따라 `{{c1::...}}` 형식의 Cloze를 적용한다.
+- 하나의 문장에는 3개에서 6개 사이의 Cloze를 만드는 것을 원칙으로 한다.
+
+**4단계: 최종 결과물 제시 (Formatting)**
+- 완성된 Anki Cloze 카드들을 글머리 기호(bullet point)를 사용해 목록 형태로 깔끔하게 제시한다.
+
+# Cloze 처리 세부 규칙
+- **Cloze 대상:** 고유명사(인물, 지명, 책 제목, 사건명 등), 전문 용어, 핵심 개념어, 숫자(연도, 수치 등) 등 문장의 핵심 &#39;알맹이&#39;가 되는 명사구 위주로 처리한다.
+- **Cloze 제외 대상:** 문장의 구조를 이루는 서술어(동사, 형용사), 조사, 접속사 등은 Cloze 처리하지 않는다.
+
+# 다양한 주제의 모범 예시 (Few-shot Examples)
+
+**주제: 역사 (서사/인과 패턴)**
+- **결과물:** {{c1::1920}}년 {{c2::10}}월, {{c3::김좌진}}이 이끈 {{c4::북로 군정서}}와 독립군 연합 부대가 {{c5::청산리 전투}}에서 일본군에게 대승을 거두었다.
+
+**주제: 과학 (개념/정의 패턴)**
+- **결과물:** {{c1::아이작 뉴턴}}은 {{c2::1687}}년에 출판된 저서 {{c3::프린키피아}}에서, 모든 입자는 두 질량의 {{c4::곱}}에 비례하고 거리의 {{c5::제곱}}에 반비례하는 힘으로 서로를 끌어당긴다는 {{c6::만유인력}}의 법칙을 발표했다.
+
+**주제: 사회/정치 (비교/대조 패턴)**
+- **결과물:** {{c1::자본주의}}는 개인의 사유 재산과 시장 경제를 기반으로 효율성을 추구하는 반면, {{c2::사회주의}}는 생산 수단의 공유와 계획 경제를 통해 {{c3::평등}}을 지향한다는 차이점이 있다.
+
+---
+
+# 변환할 텍스트
+[여기에 &#39;소제목&#39;을 포함한 학습 텍스트를 붙여넣으세요]
+</code></pre></section></article></main><footer class=site-footer><p>&copy; 2025 Cyber Mandoo</p></footer></div></div></div><script src=/js/theme-toggle.js></script><script src=https://cdn.jsdelivr.net/npm/fuse.js@6.6.2></script><script src=/js/search.js></script></body></html>

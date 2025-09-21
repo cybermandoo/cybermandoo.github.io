@@ -4,7 +4,7 @@
 &lt;/ul&gt;
 &lt;h3 id="anki로-어떻게-공부하는가"&gt;Anki로 어떻게 공부하는가&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;인터넷 공개 자료인 별별한국사 별채우기 자료를 사용한다. 이것은 한국사와 관련된 사실을 서술한 문장 중 일부를 가림 처리하고 학습자가 직접 빈칸을 채우도록 하는 자료이다. Google AI Studio의 Gemini 2.5 Pro로 순식간에 Anki Cloze 자료로 변환할 수 있었다. &lt;a href="https://cybermandoo.github.io/llm-prompt/%ED%95%9C%EA%B5%AD%EC%82%AC-%EC%9E%90%EB%A3%8C-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8/"&gt;한국사 자료 프롬프트&lt;/a&gt;에 사용한 프롬프트를 옮겨 두었다.&lt;/li&gt;
+&lt;li&gt;인터넷 공개 자료인 별별한국사 별채우기 자료를 사용한다. 이것은 한국사와 관련된 사실을 서술한 문장 중 일부를 가림 처리하고 학습자가 직접 빈칸을 채우도록 하는 자료이다. Google AI Studio의 Gemini 2.5 Pro로 순식간에 Anki Cloze 자료로 변환할 수 있었다. &lt;a href="https://cybermandoo.github.io/llm-prompt/prompt---%ED%95%9C%EA%B5%AD%EC%82%AC-%EC%9E%90%EB%A3%8C-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8/"&gt;Prompt - 한국사 자료 프롬프트&lt;/a&gt;에 사용한 프롬프트를 옮겨 두었다.&lt;/li&gt;
 &lt;li&gt;좀 더 일반화된 학습 방식에 대해 쓴 &lt;a href="https://cybermandoo.github.io/posts/learning/%EC%9E%90%EA%B8%B0%EC%99%84%EA%B2%B0%EC%A0%81-%EB%AC%B8%EC%9E%A5%EA%B3%BC-cloze/"&gt;자기완결적 문장과 cloze&lt;/a&gt;를 참조.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="비교-방식시간"&gt;비교 방식(시간)&lt;/h3&gt;
@@ -60,13 +60,14 @@
 &lt;li&gt;자기완결적 문장은 온전한 사실 관계를 담은 문장을 말한다.&lt;/li&gt;
 &lt;li&gt;하나의 문장이 완결된 맥락을 제공하고, 적절한 수준의 길이로 전체를 읽는 데 시간이 너무 오래 걸리지 않아야 한다.&lt;/li&gt;
 &lt;li&gt;읽는 것으로 얕은 층위의 학습, 키워드를 cloze로 암기하면서 중간 층위의 학습을 할 수 있다.&lt;/li&gt;
-&lt;li&gt;원본 자료가 존재할 때, AI를 통해 그로부터 자기완결적 문장을 취득하는 과정은 현재의 LLM으로 상당히 신뢰성 있게 수행할 수 있다.&lt;/li&gt;
+&lt;li&gt;원본 자료가 존재할 때, AI를 통해 그로부터 자기완결적 문장을 취득하는 과정은 현재의 LLM으로 상당히 신뢰성 있게 수행할 수 있다. &lt;a href="https://cybermandoo.github.io/llm-prompt/prompt---%EC%9E%90%EA%B8%B0%EC%99%84%EA%B2%B0%EC%A0%81-%EB%AC%B8%EC%9E%A5-%EC%B6%94%EC%B6%9C/"&gt;Prompt - 자기완결적 문장 추출&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;논란의 여지가 있는 부분은 자기완결적 문장의 패턴을 3가지로 한정하는 현재의 프롬프트이다. 이 부분은 실험과 관찰을 통해 보완해 나갈 것이다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="기존의-학습자료를-활용하기"&gt;기존의 학습자료를 활용하기&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;한국사 교재의 빈칸 채우기 자료를 통해 자기완결적 문장을 쉽게 얻을 수 있었다.&lt;/li&gt;
 &lt;li&gt;수험 교재의 선지, 해설지 문장을 활용할 수 있다.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cybermandoo.github.io/llm-prompt/prompt---%ED%95%9C%EA%B5%AD%EC%82%AC-%EC%9E%90%EB%A3%8C-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8/"&gt;참고: 한국사 자료 프롬프트&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="논의"&gt;논의&lt;/h3&gt;
 &lt;h5 id="cloze-방식의-한계점"&gt;cloze 방식의 한계점&lt;/h5&gt;
@@ -969,12 +970,4 @@ DET, TOEFL, TOEIC Speaking, OPIC 등의 말하기나 쓰기를 직접적으로 �
  &lt;td&gt;$p_2$&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title/><link>https://cybermandoo.github.io/posts/learning/%EB%AC%B4%EC%A0%9C/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EB%AC%B4%EC%A0%9C/</guid><description>&lt;p&gt;무기
-데이터
-스스로 판단
-build your own
-레이달리오 책
-예측
-lesswrong
-gwern
-뻔하지 않은 이야기를 하는 법&lt;/p&gt;</description></item></channel></rss>
+&lt;/table&gt;</description></item></channel></rss>
