@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Tue, 26 Aug 2025 18:33:00 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>무제</title><link>https://cybermandoo.github.io/posts/project/%ED%95%9C%EA%B5%AD%EC%82%AC-anki-vs.-%EA%B0%95%EC%9D%98/</link><pubDate>Tue, 26 Aug 2025 18:33:00 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/%ED%95%9C%EA%B5%AD%EC%82%AC-anki-vs.-%EA%B0%95%EC%9D%98/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 사이버 만두</title><link>https://cybermandoo.github.io/posts/</link><description>Recent content in Posts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Wed, 08 Oct 2025 00:33:36 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Erudite System</title><link>https://cybermandoo.github.io/posts/project/project---erudite-system/</link><pubDate>Wed, 08 Oct 2025 00:33:36 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/project---erudite-system/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Erudite System은 첫 입문부터 다양한 시험 대비와 창의적 아이디어 발생 과정까지의 하나의 완결된 지식 학습 절차 체계를 제시한다.&lt;/li&gt;
+&lt;li&gt;다양한 학습 기법과 도구 활용을 단계별/상황별로 체계화해서 제시하여 학습 절차에 대한 불필요한 고민과 자료 제작 작업에 들어가는 시간을 최소화하고 학습의 가장 즐거운 영역인 사고에 지적 자원을 가장 많이 투자할 수 있다.&lt;/li&gt;
+&lt;li&gt;이름에서부터 알 수 있듯, 현재(2025년 10월 8일) 중단된 Anki 프로젝트인 &lt;a href="https://cybermandoo.github.io/posts/project/anki-project---erudite-deck/"&gt;Erudite Deck&lt;/a&gt;을 계승한다.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="기본-학습-절차"&gt;기본 학습 절차&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;아래의 학습 절차는 기본적으로 사람이 직접 할 수 있는 것이며, 사람이 할 수 있는 학습 방법 중에 가장 납득 가능한 것이다. 그것을 기준으로 삼아서 LLM과 Anki로 효율화한다.&lt;/li&gt;
+&lt;li&gt;아래의 5단계는 엄격한 순서는 아님에 유의&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="1단계-이해하기"&gt;1단계: 이해하기&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;보통은 책을 읽거나 강의를 들어 이해하는 과정이다. LLM의 시대에는 대화형 학습이 가능하다.&lt;/li&gt;
+&lt;li&gt;학습에 사용할 자료를 무엇으로 할 것인가?
+&lt;ul&gt;
+&lt;li&gt;강의노트&lt;/li&gt;
+&lt;li&gt;교과서 본문&lt;/li&gt;
+&lt;li&gt;책의 세부 목차(심도있는 조감)
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cybermandoo.github.io/llm-prompt/prompt---%EC%8B%AC%EB%8F%84%EC%9E%88%EB%8A%94-%EC%A1%B0%EA%B0%90-%ED%96%89%EC%A0%95%ED%95%99/"&gt;Prompt - 심도있는 조감 (행정학)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;원본 자료가 무엇인지 여부에 따라 프롬프트가 조금씩 달라질 수 있다.&lt;/li&gt;
+&lt;li&gt;이론 구조의 도출&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="2단계-정리"&gt;2단계: 정리&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;정리 단계에서의 고민 사항
+&lt;ul&gt;
+&lt;li&gt;뼈대를 어떻게 잡을 것인지?&lt;/li&gt;
+&lt;li&gt;뼈대 내부의 내용을 어떻게 채워넣을 것인지?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;키워드 뼈대를 어떻게 잡을 것인가?
+&lt;ul&gt;
+&lt;li&gt;Dynalist와 같은 불릿 형식의 키워드 구조화를 염두에 두고 있다.&lt;/li&gt;
+&lt;li&gt;LLM을 사용하여 구조화된 키워드 트리를 만드는 프롬프트를 제작해야 한다.&lt;/li&gt;
+&lt;li&gt;원본 자료의 순서에 대응되는 키워드 트리 작성 후, 나중에 내가 생각하는 개념 순서대로 재구성할 수 있다. 예를 들어 미리 생각해놓은 체계에 반영하는 작업처럼. 대체로 수동일 것이지만, LLM이 더 발전한다면 자동화될 여지가 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;뼈대 내용을 어떻게 채워넣을 것인가?
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;요약 정리&amp;rdquo; 방식에 대한 근본적인 고민이 필요한 부분임&lt;/li&gt;
+&lt;li&gt;정의: 수학적 정의는 LLM으로 금세 갈무리할 수 있음&lt;/li&gt;
+&lt;li&gt;정리와 그 증명: 궁극적으로 Anki에서 사용할 수 있는 형식의 간결명료한 구조화 증명을 작성해야 한다. (참고: &lt;a href="https://cybermandoo.github.io/posts/learning/paul-raymond-robichaud%EC%9D%98-srs-%EC%88%98%ED%95%99-%ED%95%99%EC%8A%B5%EB%B2%95/"&gt;Paul Raymond-Robichaud의 SRS 수학 학습법&lt;/a&gt;) LLM 프롬프트를 현재 연구 중이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="3단계-암기"&gt;3단계: 암기&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;무엇을 암기하고, 무엇을 암기하지 않을 것인가&lt;/li&gt;
+&lt;li&gt;만일 암기 중 부족한 이해는 어떻게 보완할 것인지?&lt;/li&gt;
+&lt;li&gt;구체적인 계산을 Anki에서 요구해서는 안 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="4단계-적용"&gt;4단계: 적용&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;단일문제생성 프롬프트&lt;/li&gt;
+&lt;li&gt;문제 해답의 Ankification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="5단계-비판과-창의"&gt;5단계: 비판과 창의&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Motivation, 문제의식, 발견수필&lt;/li&gt;
+&lt;li&gt;비교 수필&lt;/li&gt;
+&lt;li&gt;구조 수필&lt;/li&gt;
+&lt;li&gt;현실 적용&lt;/li&gt;
+&lt;li&gt;나의 이론체계&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="학습-분야별-논의"&gt;학습 분야별 논의&lt;/h3&gt;</description></item><item><title>무제</title><link>https://cybermandoo.github.io/posts/project/%ED%95%9C%EA%B5%AD%EC%82%AC-anki-vs.-%EA%B0%95%EC%9D%98/</link><pubDate>Tue, 26 Aug 2025 18:33:00 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/%ED%95%9C%EA%B5%AD%EC%82%AC-anki-vs.-%EA%B0%95%EC%9D%98/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Anki를 통해 공부하는 것이 기존의 교재+강의 학습법보다 더 훌륭하다는 것은 내게는 증명할 필요조차 없는 당연한 사실이 되었지만, 얼마나 더 효과적인지를 구체적으로 설명하기는 어려웠다. 따라서 시간 측면에 집중하여, 한국사능력검정시험 학습을 기성 방식에 비해 얼마나 더 빨리 학습할 수 있는지 검증하기로 했다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -98,7 +171,31 @@
 &lt;li&gt;SEE는 매우 어려운 단어도 포함한다는 사실을 감안하면, 시간이 너무 오래 걸린다고 걱정할 필요는 없을 것 같다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="core-10k"&gt;Core 10k&lt;/h3&gt;
-&lt;p&gt;&lt;img src="content/posts/%ec%9e%a1%eb%8b%b4/20250730%20Anki%20%ec%a0%84%eb%a7%9d/Core.png" alt="core 10k forecast" width="500"&gt;&lt;/p&gt;</description></item><item><title>2025년 7월 22일</title><link>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250722-anki-%ED%83%80%EC%9D%B4%EB%A8%B8-%EC%A1%B0%EC%A0%95/</link><pubDate>Tue, 22 Jul 2025 13:58:50 +0900</pubDate><guid>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250722-anki-%ED%83%80%EC%9D%B4%EB%A8%B8-%EC%A1%B0%EC%A0%95/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
+&lt;p&gt;&lt;img src="content/posts/%ec%9e%a1%eb%8b%b4/20250730%20Anki%20%ec%a0%84%eb%a7%9d/Core.png" alt="core 10k forecast" width="500"&gt;&lt;/p&gt;</description></item><item><title>나만의 Zetamac 만들기</title><link>https://cybermandoo.github.io/posts/project/%EB%82%98%EB%A7%8C%EC%9D%98-zetamac-%EB%A7%8C%EB%93%A4%EA%B8%B0/</link><pubDate>Wed, 23 Jul 2025 10:29:58 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/%EB%82%98%EB%A7%8C%EC%9D%98-zetamac-%EB%A7%8C%EB%93%A4%EA%B8%B0/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;유명한 암산 훈련 프로그램 Zetamac을 내 루틴에 적합하게 다시 만드는 것이 목적이다.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cybermandoo.github.io/zetamandoo"&gt;링크&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="아이디어"&gt;아이디어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Zetamac은 일정 시간 내에 최대한 많이 암산하는 방식인데, 내 프로그램에는 여기에 일정 개수를 최대한 빨리 암산하는 방식으로 설정하는 모드도 추가한다.&lt;/li&gt;
+&lt;li&gt;작업기억 모드를 추가한다. 숫자를 계속 보여주는 것이 아니라, 두 숫자를 몇 초간 보여주고 기억하게 한다.
+&lt;ul&gt;
+&lt;li&gt;만약 기억하지 못했다면 3개를 감점하고 다음으로 넘어가도록 할 수도 있다.&lt;/li&gt;
+&lt;li&gt;숫자 두 개를 한 번에 보여줄 것인가, 아니면 하나씩 보여줄 것인가?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;사용자 통계를 제공한다. 통계는 꺾은선 그래프이되, 횟수 단위로 보여주는 방식이 있고, 일 단위로 보여줄 수도 있다.&lt;/li&gt;
+&lt;li&gt;진행 상황과 경쟁자: 화면 위쪽의 두 줄로 표시. 윗줄은 경쟁자의 진행 상황, 아랫줄은 나의 진행 상황. 이 모드는 끌 수 있음.
+&lt;ul&gt;
+&lt;li&gt;메인 화면에서 경쟁자의 속도를 초당 몇 개로 할 것인지 설정할 수 있도록 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="ai-지시사항"&gt;AI 지시사항&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>2025년 7월 22일</title><link>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250722-anki-%ED%83%80%EC%9D%B4%EB%A8%B8-%EC%A1%B0%EC%A0%95/</link><pubDate>Tue, 22 Jul 2025 13:58:50 +0900</pubDate><guid>https://cybermandoo.github.io/posts/%EC%9E%A1%EB%8B%B4/20250722-anki-%ED%83%80%EC%9D%B4%EB%A8%B8-%EC%A1%B0%EC%A0%95/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
 &lt;p&gt;Anki 학습의 효율성을 재고하기 위해 타이머를 적절히 조절하는 과정을 보여준다.&lt;/p&gt;
 &lt;h3 id="과정"&gt;과정&lt;/h3&gt;
 &lt;h5 id="현재-설정"&gt;현재 설정&lt;/h5&gt;
@@ -377,7 +474,7 @@
 &lt;h3 id="사례"&gt;사례&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;어학의 경우, chunk를 작문하도록 유도(사례: &lt;a href="#" style="color: red;"&gt;[BROKEN LINK: content/posts/Project/Anki Project - English Speaking.md] Anki Project - English Speaking&lt;/a&gt;)하는 것은 기본적으로는 표현을 암기하도록 하는 것이지만, 한편으로는 관사의 사용과 같은 일반적인 문법 규칙이나 영어 문장을 구성하는 감각을 훈련하도록 유도한다.&lt;/li&gt;
-&lt;li&gt;&lt;a href="#" style="color: red;"&gt;[BROKEN LINK: content/posts/Project/Anki Project - Erudite Deck/index.md] Erudite Deck&lt;/a&gt;이 담고 있는 카드들의 본질적인 목적은 수학적 유창성의 향상이다.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cybermandoo.github.io/posts/project/anki-project---erudite-deck/"&gt;Erudite Deck&lt;/a&gt;이 담고 있는 카드들의 본질적인 목적은 수학적 유창성의 향상이다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="논의"&gt;논의&lt;/h3&gt;
 &lt;ul&gt;
@@ -672,7 +769,7 @@
 &lt;/ul&gt;
 &lt;h3 id="내-사례"&gt;내 사례&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#" style="color: red;"&gt;[BROKEN LINK: content/posts/Project/Anki Project - Erudite Deck/index.md] Erudite Deck&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cybermandoo.github.io/posts/project/anki-project---erudite-deck/"&gt;Erudite Deck&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description></item><item><title>Sofía Belén López Vicens의 Anki 수학 공부법</title><link>https://cybermandoo.github.io/posts/learning/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens%EC%9D%98-anki-%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%EB%B2%95/</link><pubDate>Thu, 03 Jul 2025 23:48:33 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens%EC%9D%98-anki-%EC%88%98%ED%95%99-%EA%B3%B5%EB%B6%80%EB%B2%95/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;국제정보올림피아드 아르헨티나 대표 출신의 수재이자, 모스크바 물리기술대학 신입생인 &lt;a href="https://cybermandoo.github.io/posts/human/sof%C3%ADa-bel%C3%A9n-l%C3%B3pez-vicens/"&gt;Sofía Belén López Vicens&lt;/a&gt;가 첫 학기에 Anki로 어떻게 수학 과목을 학습했는지 설명하는 글이다.&lt;/li&gt;
@@ -887,7 +984,7 @@
 &lt;h5 id="인용-augmenting-long-term-memory"&gt;인용: Augmenting Long-term Memory&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="#" style="color: red;"&gt;[BROKEN LINK: content/posts/Project/Anki Project - Erudite Deck/index.md] Erudite Deck&lt;/a&gt; 프로젝트를 구상하면서 내가 생각했던 내용을 Nielsen이 거의 그대로 말하고 있었다.&lt;/p&gt;</description></item><item><title>어학 말하기&amp;쓰기 시험의 기본 유형</title><link>https://cybermandoo.github.io/posts/learning/%EC%96%B4%ED%95%99-%EB%A7%90%ED%95%98%EA%B8%B0%EC%93%B0%EA%B8%B0-%EC%8B%9C%ED%97%98%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%9C%A0%ED%98%95/</link><pubDate>Thu, 03 Jul 2025 11:41:00 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EC%96%B4%ED%95%99-%EB%A7%90%ED%95%98%EA%B8%B0%EC%93%B0%EA%B8%B0-%EC%8B%9C%ED%97%98%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%9C%A0%ED%98%95/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://cybermandoo.github.io/posts/project/anki-project---erudite-deck/"&gt;Erudite Deck&lt;/a&gt; 프로젝트를 구상하면서 내가 생각했던 내용을 Nielsen이 거의 그대로 말하고 있었다.&lt;/p&gt;</description></item><item><title>어학 말하기&amp;쓰기 시험의 기본 유형</title><link>https://cybermandoo.github.io/posts/learning/%EC%96%B4%ED%95%99-%EB%A7%90%ED%95%98%EA%B8%B0%EC%93%B0%EA%B8%B0-%EC%8B%9C%ED%97%98%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%9C%A0%ED%98%95/</link><pubDate>Thu, 03 Jul 2025 11:41:00 +0900</pubDate><guid>https://cybermandoo.github.io/posts/learning/%EC%96%B4%ED%95%99-%EB%A7%90%ED%95%98%EA%B8%B0%EC%93%B0%EA%B8%B0-%EC%8B%9C%ED%97%98%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%9C%A0%ED%98%95/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
 &lt;p&gt;이 문서에서는 언어 학습의 말하기&amp;amp;쓰기 학습 전략으로서 기본 유형을 설명한다. 이 기본 유형을 명확히 하여 방대한 어학의 여정에 도사린 불확실성을 타파하고 체계적/집중적으로 훈련할 수 있게 될 것이다.
 DET, TOEFL, TOEIC Speaking, OPIC 등의 말하기나 쓰기를 직접적으로 평가하는 각종 영어 시험도 이러한 기본 유형이 직결 혹은 조합되어 출제된다.&lt;/p&gt;
 &lt;p&gt;여기서의 기본 유형을 기반으로 한 실제 학습 방식은 &lt;a href="#" style="color: red;"&gt;[BROKEN LINK: content/posts/Project/Anki Project - English Speaking.md] Anki Project - English Speaking&lt;/a&gt;을 참조하시오.&lt;/p&gt;
@@ -923,7 +1020,36 @@ DET, TOEFL, TOEIC Speaking, OPIC 등의 말하기나 쓰기를 직접적으로 �
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h3 id="reference"&gt;Reference&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Learning Network.&lt;/strong&gt; 2018. &amp;ldquo;&lt;em&gt;Over 1,000 Writing Prompts for Students&lt;/em&gt;.&amp;rdquo; The New York Times. &lt;a href="https://www.nytimes.com/2018/04/12/learning/over-1000-writing-prompts-for-students.html"&gt;https://www.nytimes.com/2018/04/12/learning/over-1000-writing-prompts-for-students.html&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Makima</title><link>https://cybermandoo.github.io/posts/makima/</link><pubDate>Tue, 01 Jul 2025 06:40:42 +0900</pubDate><guid>https://cybermandoo.github.io/posts/makima/</guid><description>&lt;p&gt;Train Scene&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Learning Network.&lt;/strong&gt; 2018. &amp;ldquo;&lt;em&gt;Over 1,000 Writing Prompts for Students&lt;/em&gt;.&amp;rdquo; The New York Times. &lt;a href="https://www.nytimes.com/2018/04/12/learning/over-1000-writing-prompts-for-students.html"&gt;https://www.nytimes.com/2018/04/12/learning/over-1000-writing-prompts-for-students.html&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Anki Project - Erudite Deck</title><link>https://cybermandoo.github.io/posts/project/anki-project---erudite-deck/</link><pubDate>Wed, 02 Jul 2025 19:24:25 +0900</pubDate><guid>https://cybermandoo.github.io/posts/project/anki-project---erudite-deck/</guid><description>&lt;h1 id="참고"&gt;참고&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;이 프로젝트는 중단되었습니다.&lt;/strong&gt;
+(중단 선언: 2025년 10월 8일)
+아래의 내용은 더 이상 업데이트되지 않습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2018년부터 지속해서 Anki의 사용법을 연구해 왔다. 가장 흔히 사용하는 외국어 단어나 단순한 사실 암기 이상으로 수학적 사고력 증진에 큰 도움이 될 것임을 직감했기 때문이다. 다양한 시행착오를 거치고 나름의 통찰을 도출할 수 있었으나 통상의 노트 작성 방법을 대체할 수 있을 만큼의 성과를 거두기는 어려웠다.&lt;/li&gt;
+&lt;li&gt;여기에는 다양한 원인이 있다.
+&lt;ul&gt;
+&lt;li&gt;일단 Anki 자체가 한국에 아직 잘 알려진 것이 아니었고,&lt;/li&gt;
+&lt;li&gt;복잡미묘한 기능과 설정을 해외 자료를 바탕으로 학습하는 데는 시간이 필요했으며,&lt;/li&gt;
+&lt;li&gt;복습 알고리즘은 지금에 비하면 매우 열악해서 복습이 지나치게 많이 쌓이기 십상이었다.&lt;/li&gt;
+&lt;li&gt;무엇보다도 어떤 형식의 질문-답변이 가장 잘 암기될 수 있느냐의 문제는 비록 유명한 20개 규칙으로 정리되어 있기는 하지만 개별 학문에 어떻게 적용할 것이냐의 문제는 스스로 알아가는 수밖에 없었다. 특히나 STEM이나 경제학과 같은 과목은 지금까지도 구체적인 사용법이 정립되어 있지도 않을 뿐만 아니라 공개된 사례 자체가 매우 드물다.&lt;/li&gt;
+&lt;li&gt;이것 외에도 수식 작성의 본질적 불편함과 노트 작성에 상당한 시간이 걸린다는 점 역시 문제였다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;그러나 Anki에 충분히 숙련되었고, Mathpix와 같은 수식 작성에 도움이 되는 도구도 알게 되고, Gemini와 같은 대형언어모형이 상당히 발전했으며, FSRS알고리즘이 도입된 지금으로서는 이러한 문제가 상당 부분 해결된 것이다. 그간 두 명의 전문 물리학자에 의해 수학 학습의 자세한 방법이 공유되기도 했다. 따라서 지금이야말로 어린 시절 구상했던 학습과정을 실험하고 체계화할 수 있는 적기가 된 것이라고 판단한다.&lt;/li&gt;
+&lt;li&gt;Erudite Deck은 수학을 기반으로 하는 5개 분야, 즉 수학과 경제학/통계학/물리학/컴퓨터과학의 총 5개 분야에 대해, 대학 학부 수준을 필요충분하게 반영한 덱을 제시하고자 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="계획"&gt;계획&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;첫 시작은 4년간의 경제학 교육을 단일한 Anki 덱으로 요약하고자 한다. 여기에는 어느 정도의 수학이 포함된다.&lt;/li&gt;
+&lt;li&gt;아래의 그림은 학부 경제학의 핵심 과목, 고급 학부 과목, 기초 대학원 과목의 순서구조를 도식화한 것이다. 아래 과목 전반을 Ankify하는 것이 첫 목적이다.
+&lt;img src="./Economics.png" alt=""&gt;&lt;/li&gt;
+&lt;li&gt;장기적으로는 수학, 통계학, 물리학, 컴퓨터과학에서도 이와 같은 충실한 교육과정을 작성한 후 그에 맞춰 Anki 덱을 제작하는 것을 목표로 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="timeline"&gt;Timeline&lt;/h3&gt;
+&lt;h3 id="참조"&gt;참조&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://cybermandoo.github.io/posts/learning/anki%EB%A1%9C-stem%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%9C-%EC%82%AC%EB%A1%80/"&gt;Anki로 STEM을 공부한 사례&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Makima</title><link>https://cybermandoo.github.io/posts/makima/</link><pubDate>Tue, 01 Jul 2025 06:40:42 +0900</pubDate><guid>https://cybermandoo.github.io/posts/makima/</guid><description>&lt;p&gt;Train Scene&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;![200](makima.png &amp;#34;마키마 이미지&amp;#34;)
 ![200](./makima.png &amp;#34;마키마 이미지&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src="https://cybermandoo.github.io/posts/makima/makima_hu_1eda6cafd5146220.png" width="200" height="245" alt="마키마 이미지"&gt;

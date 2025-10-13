@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM Prompts on 사이버 만두</title><link>https://cybermandoo.github.io/llm-prompt/</link><description>Recent content in LLM Prompts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Sun, 21 Sep 2025 23:46:56 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/llm-prompt/index.xml" rel="self" type="application/rss+xml"/><item><title>수학 증명의 변형</title><link>https://cybermandoo.github.io/llm-prompt/prompt---%EC%88%98%ED%95%99-%EC%A6%9D%EB%AA%85%EC%9D%98-%EB%B3%80%ED%98%95/</link><pubDate>Sun, 21 Sep 2025 23:46:56 +0900</pubDate><guid>https://cybermandoo.github.io/llm-prompt/prompt---%EC%88%98%ED%95%99-%EC%A6%9D%EB%AA%85%EC%9D%98-%EB%B3%80%ED%98%95/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM Prompts on 사이버 만두</title><link>https://cybermandoo.github.io/llm-prompt/</link><description>Recent content in LLM Prompts on 사이버 만두</description><generator>Hugo</generator><language>ko-kr</language><lastBuildDate>Wed, 08 Oct 2025 02:44:41 +0900</lastBuildDate><atom:link href="https://cybermandoo.github.io/llm-prompt/index.xml" rel="self" type="application/rss+xml"/><item><title>Prompt - 심도있는 조감</title><link>https://cybermandoo.github.io/llm-prompt/prompt---%EC%8B%AC%EB%8F%84%EC%9E%88%EB%8A%94-%EC%A1%B0%EA%B0%90-%ED%96%89%EC%A0%95%ED%95%99/</link><pubDate>Wed, 08 Oct 2025 02:44:41 +0900</pubDate><guid>https://cybermandoo.github.io/llm-prompt/prompt---%EC%8B%AC%EB%8F%84%EC%9E%88%EB%8A%94-%EC%A1%B0%EA%B0%90-%ED%96%89%EC%A0%95%ED%95%99/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LLM으로 행정학을 훑어볼 때 사용한 지시사항을 완결된 프롬프트로 제시한다.&lt;/li&gt;
+&lt;li&gt;이 프롬프트는 1) 행정학의 기본적 구조를 바탕으로 2) 교재의 세부 목차를 사용하여 3) 기본적 개념을 조감할 수 있도록 하는 것이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="논의"&gt;논의&lt;/h3&gt;
+&lt;h5 id="프롬프트의-한계와-일반화-가능성"&gt;프롬프트의 한계와 일반화 가능성&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;행정학의 기본적 구조를 바탕으로
+&lt;ul&gt;
+&lt;li&gt;이 프롬프트는 정치학, 사회학과 같은 고시논문류 과목에 직접적으로 응용할 수 있으나 바로 사용하기는 어렵다.
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;핵심 대립항&amp;quot;과 &amp;ldquo;핵심 쟁점&amp;rdquo; 부분에서 사용하는 예시는 행정학의 예시이므로, 정치학과 사회학에 적용할 때 문제가 생길 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;이외 인문사회과학에도 적용 가능성이 보이지만, &amp;ldquo;개별 요소(기본적 구조)&amp;ldquo;는 대체로 행정학을 염두에 둔 것이므로 다른 과목에 적용할 때는 그 과목의 구조에 대해 좀 더 고민해야 한다.
+&lt;ul&gt;
+&lt;li&gt;역사 과목에서는 인물/사건/배경/인과 등의 요소가 추가될 수 있다. 법학에서는 학설/판례/쟁점과 같은 요소가 필요하다. 상식적으로 생각할 수 있는 것은 최대한 반영하되, 어느 정도는 일반성을 갖춰서 LLM이 스스로 판단할 수 있게 하는 것이 중요하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;교재의 세부 목차를 사용하여
+&lt;ul&gt;
+&lt;li&gt;필수 키워드가 충실히 들어가 있는 세부 목차를 사용하는 것이 좋다.&lt;/li&gt;
+&lt;li&gt;과목에 따라서는 인터넷에서 쉽사리 구하기 어려울 수 있다. 해외 도서의 차례를 활용하거나, 보유한 책 혹은 도서관을 활용해 세부 목차를 취득한다.&lt;/li&gt;
+&lt;li&gt;(심화) 이론체계가 방대하고 다양한 내용이 산발적으로 분포되어 있는(예: 고급거시경제)경우, 아예 체계화된 세부 목차를 LLM으로 제작할 수도 있을 것이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;기본적 개념을 조감한다
+&lt;ul&gt;
+&lt;li&gt;대체로 필요한 키워드는 다 들어가도록 설계되나 모든 개념이 빠짐없이 다 들어가 있지는 않을 것이다. 간편한 조감의 단계에서 무엇을 할 수 있을지, 무엇을 할 수 없을지를 고민해 보자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="개별요소"&gt;개별요소&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;이론상의 논점과 현실에서의 쟁점을 구분한 것은 좋은 생각이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="프롬프트-프로토타입"&gt;프롬프트 프로토타입&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;# 역할 및 목표
+너는 AI 행정학 교수이다. 사용자는 고시/서술형 시험 대비를 위해 행정학의 &amp;#39;심도 깊은 조감&amp;#39;을 하고자 한다. 
+사용자가 특정 챕터 번호를 제시하면, 너는 해당 챕터에 대해 다음과 같은 **두 단계의 심층 분석**을 제공한다.
+
+---
+
+### **1단계: 철저하고 포괄적인 개별 요소 분석**
+
+먼저, 해당 챕터의 내용을 5가지 핵심 요소로 분해하여 심층적으로 설명한다. 이는 흩어져 있는 개념들을 입체적으로 이해하고, 답안지에 현출할 재료를 정리하는 단계이다.
+
+* **핵심 키워드 (Core Keywords):** 목차에 제시된 단어들을 포함하여, 해당 챕터의 내용을 구성하는 가장 기본적인 용어들을 제시한다.
+* **핵심 개념 (Core Concepts):** 각 키워드가 의미하는 바와 학문적 정의, 그리고 그것이 행정학 전체에서 차지하는 위치를 설명한다.
+* **핵심 대립항 (Core Dichotomies/Contrasting Pairs):** 해당 챕터에서 가장 빈번하게 대립하거나 비교되는 개념 쌍을 제시한다. (예: 능률성 vs 형평성, 시장실패 vs 정부실패, 계급제 vs 직위분류제 등) 이는 논점을 명확히 하고, 비교/대조 방식의 서술에 대비하기 위함이다.
+* **핵심 논점 (Core Discussion Points):** 이 챕터가 학문적으로 탐구하고자 하는 근본적인 질문이나 토론 지점을 설명한다. &amp;#34;무엇을 위해, 왜 이 개념들을 배우는가?&amp;#34;에 대한 답을 제시한다.
+* **핵심 쟁점 (Core Issues/Controversies):** 이론적 논점을 넘어, 현실 행정에서 해당 주제와 관련하여 발생하는 구체적인 문제나 사회적 이슈, 제도적 딜레마를 설명한다. (예: 공공기관 부채 문제, 성과급 제도의 공정성 논란, 규제 완화의 딜레마 등)
+
+### **2단계: 본질적 구조에 기반한 통합적 설명**
+
+다음으로, 1단계에서 분석한 개별 요소들을 하나의 유기적인 틀로 엮어 &amp;#39;심도 깊은 조감&amp;#39;을 제공한다. 이는 단순히 내용을 요약하는 것을 넘어, 해당 챕터의 **내재적 논리(Logic)와 전체적인 맥락(Context)**을 파악하는 단계이다.
+
+이 구조적 설명은 다음과 같은 질문에 답하는 형태가 될 것이다.
+
+* **&amp;#34;이 챕터는 궁극적으로 무엇을 말하고자 하는가?&amp;#34;**
+* **&amp;#34;각 개념들은 어떤 인과관계와 흐름 속에서 연결되는가?&amp;#34;**
+* **&amp;#34;이 챕터의 지식은 행정학의 다른 파트와 어떻게 연결되는가?&amp;#34;**
+
+이를 통해 숲을 보면서 동시에 나무의 특징을 이해하는, 즉 거시적 시야와 미시적 분석을 결합한 통합적 이해를 돕는다.
+
+---
+
+### **최종 단계: 자체 검증**
+
+설명을 마친 후, 네가 사용자님의 요구사항을 충실히 이행했는지를 확인한다. 확인한 후, 명시적으로 &amp;#34;제시된 목차의 키워드가 본 설명에 모두 포괄적으로 반영되었음을 확인합니다.&amp;#34; 와 같은 문구를 사용한다. 
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h3 id="생성-과정"&gt;생성 과정&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://aistudio.google.com/prompts/1KZGvYQJMdsuMuS0dTGAufOSG1RBUIAur"&gt;AI Studio 세션&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id="1-일단-목차와-요구사항을-제시"&gt;1. 일단 목차와 요구사항을 제시&lt;/h5&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;아래는 행정학 책의 세부 목차이다. 후속 질문이 있을 것이니 일단 아무것도 하지 말고 읽어 보기만 해 봐.
+(세부 목차 제시)
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;나는 고시/서술형 행정학을 학습하는 수험생인데, 행정학에 대한 &amp;#34;심도 깊은 조감&amp;#34;을 하고자 해. 그냥 조감이 아닌 심도 깊은 조감. 
+내가 챕터 번호를 제시하면, 그 챕터에 대해 위의 행정학 책 세부목차의 키워드를 참고한 후, 각 챕터를 철저히 이해할 수 있는 핵심 키워드, 핵심 개념, 핵심 대립항, 핵심 논점, 핵심 쟁점을 철저히, 포괄적으로 설명해 줘. 알겠니? 그 다음으로, 이러한 개별적 요소를 전부 포괄하고 정리할 수 있는 본질적 구조를 기반으로 한 번 더 설명해. 그리고 매번, 차례의 키워드를 포괄적으로 제대로 반영했는지 스스로 검증해. 지시를 이해했는지 먼저 확인할게. 아직 챕터 번호는 제시하지 않았어.
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id="2-llm이-지시사항을-정리"&gt;2. LLM이 지시사항을 정리&lt;/h5&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;네, 제시하신 학습 목표와 요구사항을 명확히 이해했습니다. 고시/서술형 시험 대비를 위한 &amp;#39;심도 깊은 조감&amp;#39;이라는 목표에 맞춰, 제가 앞으로 수행할 작업 방식을 구체적으로 설명하며 지시 내용을 확인하겠습니다.
+
+사용자께서 특정 챕터 번호를 제시하시면, 저는 해당 챕터에 대해 다음과 같은 **두 단계의 심층 분석**을 제공하겠습니다.
+
+---
+
+### **1단계: 철저하고 포괄적인 개별 요소 분석**
+
+먼저, 해당 챕터의 내용을 5가지 핵심 요소로 분해하여 심층적으로 설명하겠습니다. 이는 흩어져 있는 개념들을 입체적으로 이해하고, 답안지에 현출할 재료를 정리하는 단계입니다.
+
+* **핵심 키워드 (Core Keywords):** 목차에 제시된 단어들을 포함하여, 해당 챕터의 내용을 구성하는 가장 기본적인 용어들을 제시합니다.
+* **핵심 개념 (Core Concepts):** 각 키워드가 의미하는 바와 학문적 정의, 그리고 그것이 행정학 전체에서 차지하는 위치를 설명합니다.
+* **핵심 대립항 (Core Dichotomies/Contrasting Pairs):** 해당 챕터에서 가장 빈번하게 대립하거나 비교되는 개념 쌍을 제시합니다. (예: 능률성 vs 형평성, 시장실패 vs 정부실패, 계급제 vs 직위분류제 등) 이는 논점을 명확히 하고, 비교/대조 방식의 서술에 대비하기 위함입니다.
+* **핵심 논점 (Core Discussion Points):** 이 챕터가 학문적으로 탐구하고자 하는 근본적인 질문이나 토론 지점을 설명합니다. &amp;#34;무엇을 위해, 왜 이 개념들을 배우는가?&amp;#34;에 대한 답을 제시합니다.
+* **핵심 쟁점 (Core Issues/Controversies):** 이론적 논점을 넘어, 현실 행정에서 해당 주제와 관련하여 발생하는 구체적인 문제나 사회적 이슈, 제도적 딜레마를 설명합니다. (예: 공공기관 부채 문제, 성과급 제도의 공정성 논란, 규제 완화의 딜레마 등)
+
+### **2단계: 본질적 구조에 기반한 통합적 설명**
+
+다음으로, 1단계에서 분석한 개별 요소들을 하나의 유기적인 틀로 엮어 &amp;#39;심도 깊은 조감&amp;#39;을 제공하겠습니다. 이는 단순히 내용을 요약하는 것을 넘어, 해당 챕터의 **내재적 논리(Logic)와 전체적인 맥락(Context)**을 파악하는 단계입니다.
+
+이 구조적 설명은 다음과 같은 질문에 답하는 형태가 될 것입니다.
+
+* **&amp;#34;이 챕터는 궁극적으로 무엇을 말하고자 하는가?&amp;#34;**
+* **&amp;#34;각 개념들은 어떤 인과관계와 흐름 속에서 연결되는가?&amp;#34;**
+* **&amp;#34;이 챕터의 지식은 행정학의 다른 파트와 어떻게 연결되는가?&amp;#34;**
+
+이를 통해 숲을 보면서 동시에 나무의 특징을 이해하는, 즉 거시적 시야와 미시적 분석을 결합한 통합적 이해를 돕겠습니다.
+
+---
+
+### **최종 단계: 자체 검증**
+
+설명을 마친 후, &amp;#34;제시된 목차의 키워드가 본 설명에 모두 포괄적으로 반영되었음을 확인합니다.&amp;#34; 와 같은 문구를 통해, 제가 사용자님의 요구사항을 충실히 이행했음을 명시적으로 확인하겠습니다.
+
+이와 같은 방식으로 진행하면 되겠습니까? 준비되었으니, 분석을 원하는 챕터 번호를 말씀해 주십시오.
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id="3-완결된-프롬프트-형식"&gt;3. 완결된 프롬프트 형식&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;역할/목표를 제시하고, 완결된 프롬프트 형식에 걸맞게 어미와 같은 부분을 적절히 수정해준다.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>수학 증명의 변형</title><link>https://cybermandoo.github.io/llm-prompt/prompt---%EC%88%98%ED%95%99-%EC%A6%9D%EB%AA%85%EC%9D%98-%EB%B3%80%ED%98%95/</link><pubDate>Sun, 21 Sep 2025 23:46:56 +0900</pubDate><guid>https://cybermandoo.github.io/llm-prompt/prompt---%EC%88%98%ED%95%99-%EC%A6%9D%EB%AA%85%EC%9D%98-%EB%B3%80%ED%98%95/</guid><description>&lt;h3 id="개요"&gt;개요&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;수학 교재의 증명은 저자의 성향에 따라 가독성이 낮은 산문 형식이거나, 필요한 논점을 누락시키는 등의 문제가 있는데, 이를 해결하기 위해 LLM을 활용해 명확하고 일관된 형식으로 증명을 다시 쓰는 프롬프트이다.&lt;/li&gt;
 &lt;li&gt;현재(2025년 9월 21일)로서는 일단 간단한 형태의 초기 버전이며, 여러 방식으로 적용해 보고 수정해야 한다. &lt;a href="https://gemini.google.com/app/e6259c32771fbfff"&gt;논의&lt;/a&gt;&lt;/li&gt;
