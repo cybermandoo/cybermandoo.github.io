@@ -132,7 +132,7 @@
 &lt;li&gt;출력 형식을 Anki에 맞게 마크다운이 아닌 HTML 형식으로 바꿔 줘야 한다.&lt;/li&gt;
 &lt;li&gt;지시가 모호한 부분의 수정이 필요하다.&lt;/li&gt;
 &lt;li&gt;전반적으로 이해는 쉬우나 너무 세부적으로 단계를 나눈 측면이 있어 Anki로 만들기 어렵다. (이 부분은 자료의 종류에 따라 달라질 수 있다)&lt;/li&gt;
-&lt;li&gt;실제로 Anki로 만들기 위해서는 등호 앞뒤로 latex 블록을 나눈다거나 하는세부 조건이 필요할 수 있다.
+&lt;li&gt;실제로 Anki로 만들기 위해서는 등호 앞뒤로 latex 블록을 나눈다거나 하는 세부 조건이 필요할 수 있다.
 &lt;ul&gt;
 &lt;li&gt;참고: &lt;a href="https://cybermandoo.github.io/llm-prompt/prompt---%EC%A0%95%EC%9D%98-%EC%B6%94%EC%B6%9C-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EA%B3%A0%EA%B8%89%EB%AF%B8%EC%8B%9C%EA%B2%BD%EC%A0%9C%ED%95%99i-%EC%88%98%EC%97%85/"&gt;Prompt - 정의 추출 프롬프트 (고급미시경제학I 수업)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
